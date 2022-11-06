@@ -1,0 +1,24 @@
+{
+    {
+        "id" : 0,
+        "projectName" : "All Colors Are In The Light",
+        "type" : "Professional Project / Group",
+        "team" : "Tien Ling/ Ling Lee/ I-Jon Hsieh",
+        "time" : "Fall 2019",
+        "location" : "Taichung City, Taiwan",
+        "place" : "National Taichung Theater: IMAGE Theater",
+        "abstract" : "",
+        "description" : ""
+    },
+    {
+        "id" : 1,
+        "projectName" : "Zooba Battle",
+        "type" : "Acdemic Project / Group",
+        "team" : "Tien Ling/ Ling Lee/ I-Jon Hsieh",
+        "time" : "Fall 2019",
+        "location" : "New York, U.S.",
+        "place" : "370 Jay St.",
+        "abstract" : "",
+        "description" : ""
+    }
+}
