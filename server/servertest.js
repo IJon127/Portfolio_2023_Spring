@@ -1,7 +1,7 @@
 const http = require("http");
 
 const hostname = "localhost";
-const port = 3000;
+const PORT = 3000;
 
 const server = http.createServer((req, res) => {
   res.statusCode = 200;
@@ -9,6 +9,6 @@ const server = http.createServer((req, res) => {
   res.end("No express\n");
 });
 
-server.listen(port, hostname, () => {
-  console.log(`Server running at ${port}`);
+server.listen(PORT, hostname, () => {
+  console.log(`Server running at ${PORT}`);
 });
