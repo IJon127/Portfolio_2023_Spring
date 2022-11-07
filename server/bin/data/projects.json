@@ -1,0 +1,74 @@
+[
+  {
+    "id": 0,
+    "projectName": "All Colors Are In The Light",
+    "subtitle": "Extracting and Overlaying Urban Images for Interactive Spatiality",
+    "type": "Professional Project / Group",
+    "team": "Tien Ling/ Ling Lee/ I-Jon Hsieh",
+    "time": "Fall 2019",
+    "location": "Taichung City, Taiwan",
+    "place": "National Taichung Theater: IMAGE Theater",
+    "abstract": "Urban images have been prevailing and even ubiquitous these days. We see representations of cities in digital maps, movies or games, and we often participate in creating urban imageries by posting traveling logs in social media, uploading panorama shots or creating computer game MUDs based on real life locations. However, in terms of actual interaction instead of visual or virtual participation, it is much more difficult to create public engagement in any built urban environment. The more designers and architects put effort into applying complicated algorithms and mechanisms to interactive items, the more it shows that the majority of our surroundings, by its default status, do not interact with people at all. All Colors Are In The Lights (ACAITL) is an installation that animates the environment via arrangements of images and projections. Without complicated sensing techniques or movable mechanisms, an intuitive light and shadow show with everyday street view images creates an instantly relatable urban experience to the audience. A playful and responsive engagement between an enclosed interior and an open urban spatial environment is presented in a way that invites maximum public participation, whether to interact with the imagery, the projections, or the interior space, individually as well as collectively.",
+    "description": ""
+  },
+  {
+    "id": 1,
+    "projectName": "Zooba Battle",
+    "subtitle": "",
+    "type": "Acdemic Project / Group",
+    "team": "Jinny Kang/ SS/ QT/ I-Jon Hsieh",
+    "time": "Spring 2022",
+    "location": "New York, U.S.",
+    "place": "370 Jay St.",
+    "abstract": "",
+    "description": ""
+  },
+  {
+    "id": 2,
+    "projectName": "Tree Shadow Lamp",
+    "subtitle": "",
+    "type": "Acdemic Project / Individual",
+    "team": "",
+    "time": "Spring 2022",
+    "location": "New York, U.S.",
+    "place": "370 Jay St.",
+    "abstract": "",
+    "description": ""
+  },
+  {
+    "id": 3,
+    "projectName": "Finger Spray",
+    "subtitle": "",
+    "type": "Acdemic Project / Individual",
+    "team": "",
+    "time": "Spring 2022",
+    "location": "New York, U.S.",
+    "place": "370 Jay St.",
+    "abstract": "",
+    "description": ""
+  },
+  {
+    "id": 4,
+    "projectName": "Doggolinko",
+    "subtitle": "",
+    "type": "Acdemic Project / Individual",
+    "team": "",
+    "time": "Spring 2022",
+    "location": "New York, U.S.",
+    "place": "370 Jay St.",
+    "abstract": "",
+    "description": ""
+  },
+  {
+    "id": 5,
+    "projectName": "Ibrijomeesean Library",
+    "subtitle": "",
+    "type": "Acdemic Project / Group",
+    "team": "",
+    "time": "Fall 2021",
+    "location": "New York, U.S.",
+    "place": "370 Jay St.",
+    "abstract": "",
+    "description": ""
+  }
+]
