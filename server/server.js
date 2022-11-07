@@ -4,29 +4,21 @@ const app = express();
 
 const projects = JSON.parse(fs.readFileSync(`${__dirname}/data/projects.json`));
 
-//app.get("/", getRoot);
-//app.get("/projects", getProjects);
-app.get("/projects", (req, res) => {
+app.get("/", getRoot);
+app.get("/projects", getProjects);
+
+const PORT = 8000;
+app.listen(PORT, () => console.log(`Server started on PORT ${PORT}`));
+
+function getRoot(req, res) {
+  res.status(200).send("Hi from the root from itp!");
+}
+
+function getProjects(req, res) {
   res.status(200).json({
     status: "success",
     data: {
       projects,
     },
   });
-});
-
-const PORT = process.env.PORT || 8000;
-app.listen(PORT, () => console.log(`Server started on PORT ${PORT}`));
-
-// function getRoot(req, res) {
-//   res.status(200).send("Hi from root!");
-// }
-
-// function getProjects(req, res) {
-//   res.status(200).json({
-//     status: "success",
-//     data: {
-//       projects,
-//     },
-//   });
-// }
+}
