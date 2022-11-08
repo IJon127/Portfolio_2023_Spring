@@ -1,77 +1,94 @@
 [
   {
-    "id": 0,
-    "projectName": "All Colors Are In The Light",
+    "id": "all_colors_are_in_the_lights",
+    "title": "All Colors Are In The Lights",
     "subtitle": "Extracting and Overlaying Urban Images for Interactive Spatiality",
     "type": "Professional Project / Group",
     "team": "Tien Ling/ Ling Lee/ I-Jon Hsieh",
     "time": "Fall 2019",
     "location": "Taichung City, Taiwan",
     "place": "National Taichung Theater: IMAGE Theater",
-    "abstract": [
+    "description": [
       "Urban images have been prevailing and even ubiquitous these days. We see representations of cities in digital maps, movies or games, and we often participate in creating urban imageries by posting traveling logs in social media, uploading panorama shots or creating computer game MUDs based on real life locations. However, in terms of actual interaction instead of visual or virtual participation, it is much more difficult to create public engagement in any built urban environment. The more designers and architects put effort into applying complicated algorithms and mechanisms to interactive items, the more it shows that the majority of our surroundings, by its default status, do not interact with people at all.",
       "All Colors Are In The Lights (ACAITL) is an installation that animates the environment via arrangements of images and projections. Without complicated sensing techniques or movable mechanisms, an intuitive light and shadow show with everyday street view images creates an instantly relatable urban experience to the audience. A playful and responsive engagement between an enclosed interior and an open urban spatial environment is presented in a way that invites maximum public participation, whether to interact with the imagery, the projections, or the interior space, individually as well as collectively."
     ],
-    "description": ""
+    "readMore": "",
+    "videoLink": ""
   },
   {
-    "id": 1,
-    "projectName": "Zooba Battle",
-    "subtitle": "",
-    "type": "Acdemic Project / Group",
-    "team": "Jinny Kang/ SS/ QT/ I-Jon Hsieh",
+    "id": "zooba_battle",
+    "title": "Zooba Battle",
+    "subtitle": "Playful Communication for Serious Research",
+    "type": "Academic Project / Group",
+    "team": "Jinny Kang/ Qiongting Zhang/ Stephanie Chen/ I-Jon Hsieh",
     "time": "Spring 2022",
     "location": "New York, U.S.",
-    "place": "370 Jay St.",
-    "abstract": "",
-    "description": ""
+    "place": "",
+    "description": [
+      "Zooba is a competitive and educational 2 player rhythm game that is based on studies and hypotheses of the link between vocal learning and vocal entrainment (dance) in various species.",
+      "You are given a selection of animals to choose from based on 6 categories: speed, vocal, power, auditory, beauty, and vision—with the prompt: “be the next dance champion”. Each animal will activate its own unique game pattern and all animals are ranked based on quantitative datasets from 0 to 5, with 5 being best, and 0 being worst.",
+      "The game includes 2 distinct stages within a song: Stage 1, both players are given the same rhythm game (beats) that are created to match the rhythm of the song perfectly. Stage 2, based on which animal a player chose, beats are presented based on how animals would dance to a rhythm. By playing the rhythm game as if being the animal, players can sense and experience how the selected animal perceives and reacts to rhythm and beats."
+    ],
+    "readMore": "",
+    "videoLink": ""
   },
   {
-    "id": 2,
-    "projectName": "Tree Shadow Lamp",
+    "id": "tree_shadow_lamp",
+    "title": "Tree Shadow Lamp",
     "subtitle": "",
-    "type": "Acdemic Project / Individual",
+    "type": "Academic Project / Individual",
+    "team": "Meditation Roly-poly Lamp",
+    "time": "Spring 2022",
+    "location": "New York, U.S.",
+    "place": "",
+    "description": [
+      "Tree Shadow Lamp is a roly-poly table lamp for meditation. It is inspired by the soothing nature of tree shadows. The lamp connects with a p5 sketch projected in the space. When people gently sway the lamp, the internal accelerometer will generate data for the p5 sketch to trigger the animation and sound.",
+      "There are three LED bulbs in the lamp. Each bulb connects to the Arduino 33 IoT build-in gyroscope’s X, Y, and Z values, respectively. The three shadow videos and the sound of leaves rustling in the P5 sketch are also linked to the gyroscope data; when the gyroscope detects axial motion, the opacity of the videos and the volume of sound increase. Likewise, while the movement stops, the opacity and volume decline."
+    ],
+    "readMore": "",
+    "videoLink": ""
+  },
+  {
+    "id": "finger_spray",
+    "title": "Finger Spray",
+    "subtitle": "Digital Painting Tool for Art Therapy",
+    "type": "Academic Project / Individual",
     "team": "",
     "time": "Spring 2022",
     "location": "New York, U.S.",
-    "place": "370 Jay St.",
-    "abstract": "",
-    "description": ""
+    "place": "",
+    "description": [
+      "Finger Spray is a painting tool based on an art therapy framework - Expressive Therapies Continuum (ETC). The ETC is a hierarchical, continuous model that classifies the interaction between humans and the creative medium by information processing. This project focuses on the Kinesthetics/Sensory and the Perceptual/ Affective levels of the ETC framework.",
+      "Participants will wear a special glove on their dominant hand to paint on the virtual canvas by clicking the thumb with the index finger. Inside the middle finger of the glove is a forcing sensor that controls the radius of the spray. The tighter the fist grasped, the smaller the spray range. A color palette and a color picker are in front of the canvas. People move the color picker to take the color for the spray.",
+      "Except for the canvas, an auto-generated report behind the scene will analyze the creative process by assessing the composition of the color, the proportion of the blank space on the canvas, the color choice by time, how long you have held tightly, and how tight, etc. Then, while participants finish their drawing and press the \"done\" button, The report will show on the screen."
+    ],
+    "readMore": "",
+    "videoLink": ""
   },
   {
-    "id": 3,
-    "projectName": "Finger Spray",
+    "id": "doggolinko",
+    "title": "Doggolinko",
     "subtitle": "",
-    "type": "Acdemic Project / Individual",
+    "type": "Academic Project / Individual",
     "team": "",
     "time": "Spring 2022",
     "location": "New York, U.S.",
-    "place": "370 Jay St.",
-    "abstract": "",
-    "description": ""
+    "place": "",
+    "description": [""],
+    "readMore": "",
+    "videoLink": ""
   },
   {
-    "id": 4,
-    "projectName": "Doggolinko",
+    "id": "ibrijomeesean_ibrary",
+    "title": "Ibrijomeesean Library",
     "subtitle": "",
-    "type": "Acdemic Project / Individual",
-    "team": "",
-    "time": "Spring 2022",
-    "location": "New York, U.S.",
-    "place": "370 Jay St.",
-    "abstract": "",
-    "description": ""
-  },
-  {
-    "id": 5,
-    "projectName": "Ibrijomeesean Library",
-    "subtitle": "",
-    "type": "Acdemic Project / Group",
+    "type": "Academic Project / Group",
     "team": "",
     "time": "Fall 2021",
     "location": "New York, U.S.",
-    "place": "370 Jay St.",
-    "abstract": "",
-    "description": ""
+    "place": "",
+    "description": [""],
+    "readMore": "",
+    "videoLink": ""
   }
 ]
