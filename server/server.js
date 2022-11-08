@@ -22,7 +22,7 @@ app.listen(PORT, () => console.log(`Server started on PORT ${PORT}`));
 //get requests callback functions------------------
 
 function getRoot(req, res) {
-  res.status(200).send("Home page! from NODE js");
+  res.status(200).send("<h1>Home page! from NODE.js</h1>");
 }
 
 function getProjects(req, res) {
