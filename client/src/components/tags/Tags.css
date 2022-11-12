@@ -1,0 +1,6 @@
+.tags__container {
+  margin-bottom: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}

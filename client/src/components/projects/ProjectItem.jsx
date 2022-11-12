@@ -1,6 +1,6 @@
 import "./ProjectItem.css";
 
-function ProjectList(props) {
+function ProjectItem(props) {
   return (
     <div className="project-item__container">
       <div className="project-item__pic-box">
@@ -15,4 +15,4 @@ function ProjectList(props) {
   );
 }
 
-export default ProjectList;
+export default ProjectItem;

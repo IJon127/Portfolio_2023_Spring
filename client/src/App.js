@@ -1,21 +1,25 @@
 import React, { useState } from "react";
 
-import Header from "./components/Header";
-import Tags from "./components/Tags";
-import ProjectList from "./components/ProjectList";
+import Header from "./components/header/Header";
+import Wrapper from "./components/UI/Wrapper";
+import Tags from "./components/tags/Tags";
+import ProjectList from "./components/projects/ProjectList";
+import ExerciseList from "./components/exercises/ExerciseList";
+import Footer from "./components/Footer";
 
 import "./App.css";
 
 function App() {
   return (
     <div className="App">
-      <header className="app__header">
-        <Header />
-      </header>
-      <body className="app__body">
-        <Tags />
-        <ProjectList />
-      </body>
+      <Header />
+      <Wrapper>
+        {/* <Tags />
+        <ProjectList /> */}
+        <ExerciseList category="coding" />
+        <ExerciseList category="3D" />
+      </Wrapper>
+      <Footer />
     </div>
   );
 }
