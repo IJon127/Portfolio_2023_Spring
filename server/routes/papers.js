@@ -3,40 +3,36 @@ const express = require("express");
 const router = express.Router();
 
 // 1) LOAD DATA ==========================================
-const projects = JSON.parse(
-  fs.readFileSync(`${__dirname}/../data/projects.json`)
-);
+const papers = JSON.parse(fs.readFileSync(`${__dirname}/../data/papers.json`));
 
 // 3) ROUTE HANDLERS =====================================
-function getProjects(req, res) {
+function getPapers(req, res) {
   res.status(200).json({
     status: "success",
-    result: projects.length,
+    result: papers.length,
     data: {
-      projects,
+      papers,
     },
   });
 }
 
-function getProjectByName(req, res) {
-  const project = projects.find((el) => el.name === req.params.name);
+function getPaperByName(req, res) {
+  const paper = papers.find((el) => el.name === req.params.name);
 
-  if (!project) {
-    return res
-      .status(404)
-      .send("<h1>404...sorry I don't have this project</h1>");
+  if (!paper) {
+    return res.status(404).send("<h1>404...sorry I don't have this paper</h1>");
   }
   res.status(200).json({
     status: "success",
     data: {
-      project,
+      paper,
     },
   });
 }
 
 // 4) ROUTES =============================================
-router.get("/", getProjects);
-router.get("/:name", getProjectByName);
+router.get("/", getPapers);
+router.get("/:name", getPaperByName);
 
 // 5) EXPORT ROUTER ======================================
 module.exports = router;
