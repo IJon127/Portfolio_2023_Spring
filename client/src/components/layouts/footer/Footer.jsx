@@ -3,9 +3,9 @@ import "./Footer.css";
 function Footer() {
   return (
     <div className="footer">
-      <a>
+      <button>
         <p className="footer__top">↑ top</p>
-      </a>
+      </button>
       <p className="footer__copyright">
         Copyright © I-Jon Hsieh | All right reserved
       </p>

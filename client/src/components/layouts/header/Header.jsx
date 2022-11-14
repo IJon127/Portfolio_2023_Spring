@@ -1,18 +1,20 @@
 import "./Header.css";
-import Wrapper from "../UI/Wrapper";
+import Main from "../main/Main";
 
-import Nav from "./Nav";
+import Navbar from "./Navbar";
+import NavBurger from "./NavBurger";
 
 function Header() {
   return (
-    <Wrapper className="header">
+    <Main className="header">
       <div className="header__container">
         <a className="header__namelogo" href="../index.html">
           i j
         </a>
-        <Nav />
+        <Navbar />
+        <NavBurger />
       </div>
-    </Wrapper>
+    </Main>
   );
 }
 

@@ -1,0 +1,14 @@
+.nav-social {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.nav-social-btn {
+  margin: 5px;
+  align-self: center;
+  width: 20px;
+}
+.nav-social-btn img {
+  width: 100%;
+}

@@ -1,11 +1,11 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 
-import Header from "./components/header/Header";
-import Wrapper from "./components/UI/Wrapper";
-import Tags from "./components/tags/Tags";
-import ProjectList from "./components/projects/ProjectList";
-import ExerciseList from "./components/exercises/ExerciseList";
-import Footer from "./components/Footer";
+import Header from "./components/layouts/header/Header";
+import Main from "./components/layouts/main/Main";
+import Footer from "./components/layouts/footer/Footer";
+import Home from "./components/pages/home/Home";
+import Projects from "./components/pages/projects/Projects";
+import Exercises from "./components/pages/exercises/Exercises";
 
 import "./App.css";
 
@@ -13,12 +13,11 @@ function App() {
   return (
     <div className="App">
       <Header />
-      <Wrapper>
-        {/* <Tags />
-        <ProjectList /> */}
-        <ExerciseList category="coding" />
-        <ExerciseList category="3D" />
-      </Wrapper>
+      <Main>
+        <Home />
+        <Projects />
+        <Exercises />
+      </Main>
       <Footer />
     </div>
   );

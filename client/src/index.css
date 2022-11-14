@@ -26,6 +26,16 @@ a:hover {
   opacity: 0.6;
 }
 
+button {
+  border: none;
+}
+
+button:hover {
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  opacity: 0.6;
+}
+
 /* 
 body {
   margin: 0;

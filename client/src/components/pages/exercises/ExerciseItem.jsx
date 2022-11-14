@@ -2,7 +2,7 @@ import "./ExerciseItem.css";
 
 function ExerciseItem(props) {
   return (
-    <div className="exercise-item__container">
+    <a className="exercise-item__container" href="">
       <div className="exercise-item__pic-box">
         <img
           src={props.picture}
@@ -11,7 +11,7 @@ function ExerciseItem(props) {
         />
       </div>
       <h4 className="exercise-item__title">{props.title}</h4>
-    </div>
+    </a>
   );
 }
 

@@ -2,7 +2,7 @@ import "./ProjectItem.css";
 
 function ProjectItem(props) {
   return (
-    <div className="project-item__container">
+    <a className="project-item__container" href="">
       <div className="project-item__pic-box">
         <img
           src={props.picture}
@@ -11,7 +11,7 @@ function ProjectItem(props) {
         />
       </div>
       <h4 className="project-item__title">{props.title}</h4>
-    </div>
+    </a>
   );
 }
 
