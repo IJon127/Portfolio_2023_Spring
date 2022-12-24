@@ -1,17 +1,17 @@
-.exercise-item__container {
+.exercises-item__container {
   width: 100%;
 }
-.exercise-item__pic-box {
+.exercises-item__pic-box {
   width: 100%;
   aspect-ratio: 1 / 1;
   overflow: hidden;
 }
-.exercise-item__picture {
+.exercises-item__picture {
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
-.exercise-item__title {
+.exercises-item__title {
   font-weight: 500;
   margin-top: 10px;
 }

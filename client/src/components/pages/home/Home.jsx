@@ -1,12 +1,24 @@
 import "./Home.css";
+import PictureBox from "../../ui/PictureBox";
 
 function Home() {
   return (
-    <div className="">
-      <h2>I-Jon Hsieh</h2>
-      <p>
-        I am a New York based creative technologist and architect from Taiwan.
-      </p>
+    <div className="home">
+      <div className="home__text">
+        <h2 className="title">I-Jon Hsieh</h2>
+        <p>
+          I am an NYC-based creative technologist and architect from Taiwan. My
+          main focus is combining science and natural phenomena into
+          interactable art pieces, including interactive installations,
+          generative art, games, and websites.
+        </p>
+      </div>
+      <PictureBox
+        className="home__img"
+        aspectRatio="5/3"
+        img={"images/projects/tree_shadow_lamp/01.jpg"}
+        alt="home image"
+      />
     </div>
   );
 }

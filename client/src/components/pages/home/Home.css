@@ -1,0 +1,16 @@
+.home {
+  display: flex;
+  justify-content: space-between;
+  gap: 60px;
+}
+.home__text {
+  flex: 3;
+}
+
+.home__text p {
+  font-weight: 300;
+}
+
+.home__img {
+  flex: 5;
+}

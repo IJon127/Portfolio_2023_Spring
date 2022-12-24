@@ -1,5 +1,12 @@
 .tag-btn {
+  font-weight: 300;
   padding: 8px 0px;
   border: none;
+  color: #949494;
+  border-bottom: 1px solid #949494;
+}
+
+.tag-btn__clicked {
+  color: black;
   border-bottom: 1px solid black;
 }

@@ -24,12 +24,12 @@ function getRoot(req, res) {
 }
 
 // 4) ROUTES =============================================
-app.get("/", getRoot);
-app.use("/projects", projectsRoutes);
-app.use("/exercises", exercisesRoutes);
-app.use("/papers", papersRoutes);
-app.use("/about", aboutRoutes);
-app.use("/contact", contactRoutes);
+app.get("/api/", getRoot);
+app.use("/api/projects", projectsRoutes);
+app.use("/api/exercises", exercisesRoutes);
+app.use("/api/papers", papersRoutes);
+app.use("/api/about", aboutRoutes);
+app.use("/api/contact", contactRoutes);
 
 // 5) START SERVER ========================================
 const PORT = 5000;

@@ -1,14 +1,22 @@
 import "./Projects.css";
 import Tags from "../../ui/tags/Tags";
-import ProjectItem from "./ProjectItem";
-import projectPic_allcolor from "../../../assets/images/projects/all_colors_are_in_the_lights/index.jpg";
-import projectPic_zooba from "../../../assets/images/projects/zooba_battle/index.JPG";
+import ProjectsItem from "./ProjectsItem";
 
 const projects = [
-  "All Colors Are In The Light",
-  "Zooba Battle",
-  "Tree Shadow Lamp",
-  "Finger Spray",
+  {
+    name: "all_colors_are_in_the_lights",
+    thumbnail: "11.jpg",
+    title: "All Colors are in The Light",
+  },
+  { name: "zooba_battle", thumbnail: "01.jpg", title: "Zooba Battle" },
+  { name: "tree_shadow_lamp", thumbnail: "01.jpg", title: "Tree Shadow Lamp" },
+  { name: "finger_spray", thumbnail: "01.jpg", title: "Finger Spray" },
+  { name: "doggolinko", thumbnail: "01.png", title: "Doggolinko" },
+  {
+    name: "ibrijomeesean_ibrary",
+    thumbnail: "01.png",
+    title: "Ibrijomeesean Library",
+  },
 ];
 
 function Projects() {
@@ -16,10 +24,9 @@ function Projects() {
     <div>
       <Tags />
       <div className="projects__container">
-        <ProjectItem title={projects[0]} picture={projectPic_allcolor} />
-        <ProjectItem title={projects[1]} picture={projectPic_zooba} />
-        <ProjectItem title={projects[2]} picture={projectPic_allcolor} />
-        <ProjectItem title={projects[3]} picture={projectPic_allcolor} />
+        {projects.map((project) => (
+          <ProjectsItem key={project.name} project={project} />
+        ))}
       </div>
     </div>
   );

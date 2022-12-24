@@ -49,21 +49,18 @@
       "time": "Jul-Sep/2012"
     }
   ],
-  "education": [
+  "Education": [
     {
       "program": "MPS Interactive Telecommunications Program",
-      "school": "New York University",
-      "honor": ""
+      "school": "New York University"
     },
     {
       "program": "MSc Creative Arts and Mental Health",
-      "school": "Queen Mary University of London",
-      "honor": "Distinction"
+      "school": "Queen Mary University of London"
     },
     {
       "program": "BArch Architecture",
-      "school": "Tunghai University",
-      "honor": "Graduate Thesis Award"
+      "school": "Tunghai University"
     }
   ],
   "Award": [

@@ -1,10 +1,10 @@
-import ExerciseList from "./ExerciseList";
+import ExercisesList from "./ExercisesList";
 
 function Exercises() {
   return (
     <div className="">
-      <ExerciseList category="coding" />
-      <ExerciseList category="3D" />
+      <ExercisesList category="coding" />
+      <ExercisesList category="3D" />
     </div>
   );
 }

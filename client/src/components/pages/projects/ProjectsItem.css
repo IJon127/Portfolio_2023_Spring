@@ -1,17 +1,17 @@
-.project-item__container {
+.projects-item__container {
   width: 100%;
 }
-.project-item__pic-box {
+.projects-item__pic-box {
   width: 100%;
   aspect-ratio: 5 / 3;
   overflow: hidden;
 }
-.project-item__picture {
+.projects-item__picture {
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
-.project-item__title {
+.projects-item__title {
   font-weight: 500;
   margin-top: 10px;
 }
