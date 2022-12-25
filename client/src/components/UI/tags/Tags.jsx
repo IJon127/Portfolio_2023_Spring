@@ -1,14 +1,26 @@
 import "./Tags.css";
 import TagBtn from "./TagBtn";
+import { useEffect } from "react";
 
-function Tags({ tags }) {
-  const tagClickedHandler = () => {};
+function Tags({ tags, activeTag, setActiveTag, setFilteredItems, allItems }) {
+  useEffect(() => {
+    if (activeTag === "Show All") {
+      setFilteredItems(allItems);
+      return;
+    }
+    const filtered = allItems.filter((item) => item.tags.includes(activeTag));
+    setFilteredItems(filtered);
+  }, [activeTag]);
 
   return (
     <div className="tags__container">
-      <TagBtn name="Show All" active={true} onTagClicked={tagClickedHandler} />
       {tags.map((tag) => (
-        <TagBtn key={tag} name={tag} active={false} />
+        <TagBtn
+          key={tag}
+          tag={tag}
+          active={activeTag === tag ? true : false}
+          setActiveTag={setActiveTag}
+        />
       ))}
     </div>
   );

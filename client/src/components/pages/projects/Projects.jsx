@@ -5,6 +5,7 @@ import { useState, useEffect } from "react";
 //import axios from "axios";
 
 const tags = [
+  "Show All",
   "Installation",
   "Projection",
   "Game Design",
@@ -14,55 +15,14 @@ const tags = [
 
 function Projects() {
   const [activeTag, setActiveTag] = useState("Show All");
-  const [projects, setProjects] = useState([
-    {
-      name: "all_colors_are_in_the_lights",
-      thumbnail: "11.jpg",
-      title: "All Colors are in The Light",
-      tags: ["Installation", "Game Design", "Projection"],
-    },
-    {
-      name: "zooba_battle",
-      thumbnail: "01.jpg",
-      title: "Zooba Battle",
-      tags: ["Installation", "Game Design"],
-    },
-    {
-      name: "tree_shadow_lamp",
-      thumbnail: "01.jpg",
-      title: "Tree Shadow Lamp",
-      tags: ["Installation", "Product Design", "Projection"],
-    },
-    {
-      name: "finger_spray",
-      thumbnail: "01.jpg",
-      title: "Finger Spray",
-      tags: ["Installation"],
-    },
-    {
-      name: "doggolinko",
-      thumbnail: "01.png",
-      title: "Doggolinko",
-      tags: ["Product Design"],
-    },
-    {
-      name: "ibrijomeesean_ibrary",
-      thumbnail: "01.png",
-      title: "Ibrijomeesean Library",
-      tags: ["Product Design", "Game Design"],
-    },
-  ]);
-
-  // const fetchProjects = async () => {
-  //   const res = await fetch("http://localhost:5000/api/projects");
-  //   const data = await res.json();
-  //   console.log(data);
-  // };
+  const [allProjects, setAllProjects] = useState([]);
+  const [filteredProjects, setFilteredProjects] = useState([]);
 
   const fetchProjects = async () => {
     const res = await fetch("api/projects");
-    const data = await res.json();
-    console.log(data);
+    const dataIn = await res.json();
+    setAllProjects(dataIn.data.projects);
+    setFilteredProjects(dataIn.data.projects);
   };
 
   useEffect(() => {
@@ -71,9 +31,15 @@ function Projects() {
 
   return (
     <div>
-      <Tags tags={tags} />
+      <Tags
+        tags={tags}
+        activeTag={activeTag}
+        setActiveTag={setActiveTag}
+        setFilteredItems={setFilteredProjects}
+        allItems={allProjects}
+      />
       <div className="projects__container">
-        {projects.map((project) => (
+        {filteredProjects.map((project) => (
           <ProjectsItem key={project.name} project={project} />
         ))}
       </div>

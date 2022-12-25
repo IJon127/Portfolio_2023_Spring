@@ -1,11 +1,11 @@
 import "./TagBtn.css";
 import { useState } from "react";
 
-function TagBtn(props) {
-  const [active, setActive] = useState(props.active);
-  const clickHandler = () => {
-    setActive(!active);
-  };
+function TagBtn({ tag, active, setActiveTag }) {
+  // const [active, setActive] = useState(props.active);
+  // const clickHandler = () => {
+  //   setActive(!active);
+  // };
 
   let tagClass;
   if (active === true) {
@@ -13,10 +13,13 @@ function TagBtn(props) {
   } else {
     tagClass = "tag-btn";
   }
+  const clickHandler = () => {
+    setActiveTag(tag);
+  };
 
   return (
     <button onClick={clickHandler} className={tagClass}>
-      {props.name}
+      {tag}
     </button>
   );
 }
