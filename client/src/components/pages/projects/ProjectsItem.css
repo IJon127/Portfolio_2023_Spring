@@ -1,16 +1,7 @@
 .projects-item__container {
   width: 100%;
 }
-.projects-item__pic-box {
-  width: 100%;
-  aspect-ratio: 5 / 3;
-  overflow: hidden;
-}
-.projects-item__picture {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
+
 .projects-item__title {
   font-weight: 500;
   margin-top: 10px;
