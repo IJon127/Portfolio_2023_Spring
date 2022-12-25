@@ -15,7 +15,7 @@ function Home() {
       </div>
       <PictureBox
         className="home__img"
-        aspectRatio="5/3"
+        aspectRatio=""
         img={"images/projects/tree_shadow_lamp/01.jpg"}
         alt="home image"
       />
