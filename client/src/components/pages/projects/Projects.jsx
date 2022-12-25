@@ -2,6 +2,7 @@ import "./Projects.css";
 import Tags from "../../ui/tags/Tags";
 import ProjectsItem from "./ProjectsItem";
 import { useState, useEffect } from "react";
+//import axios from "axios";
 
 const tags = [
   "Installation",
@@ -52,8 +53,14 @@ function Projects() {
     },
   ]);
 
+  // const fetchProjects = async () => {
+  //   const res = await fetch("http://localhost:5000/api/projects");
+  //   const data = await res.json();
+  //   console.log(data);
+  // };
+
   const fetchProjects = async () => {
-    const res = await fetch("http://localhost:5000/api/projects");
+    const res = await fetch("api/projects");
     const data = await res.json();
     console.log(data);
   };
