@@ -6,22 +6,22 @@ const navBtns = [
   {
     id: 0,
     name: "projects",
-    link: "",
+    link: "projects",
   },
   {
     id: 1,
     name: "exercises",
-    link: "",
+    link: "exercises",
   },
   {
     id: 2,
     name: "papers",
-    link: "",
+    link: "papers",
   },
   {
     id: 3,
     name: "about",
-    link: "",
+    link: "about",
   },
 ];
 

@@ -8,7 +8,7 @@ function Header() {
   return (
     <Main className="header">
       <div className="header__container">
-        <a className="header__namelogo" href="../index.html">
+        <a className="header__namelogo" href="/">
           i j
         </a>
         <Navbar />
