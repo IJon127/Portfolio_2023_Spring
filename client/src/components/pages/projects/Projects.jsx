@@ -4,16 +4,15 @@ import ProjectsItem from "./ProjectsItem";
 import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 
-const tags = [
-  "Show All",
-  "Installation",
-  "Projection",
-  "Game Design",
-  "Product Design",
-  "Architecture",
-];
-
 function Projects() {
+  const tags = [
+    "Show All",
+    "Installation",
+    "Projection",
+    "Game Design",
+    "Product Design",
+    "Architecture",
+  ];
   const [activeTag, setActiveTag] = useState("Show All");
   const [allProjects, setAllProjects] = useState([]);
   const [filteredProjects, setFilteredProjects] = useState([]);
