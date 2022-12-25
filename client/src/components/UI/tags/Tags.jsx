@@ -8,7 +8,7 @@ function Tags({ tags }) {
     <div className="tags__container">
       <TagBtn name="Show All" active={true} onTagClicked={tagClickedHandler} />
       {tags.map((tag) => (
-        <TagBtn name={tag} active={false} />
+        <TagBtn key={tag} name={tag} active={false} />
       ))}
     </div>
   );
