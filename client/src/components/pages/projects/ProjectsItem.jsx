@@ -1,17 +1,17 @@
 import "./ProjectsItem.css";
+import PictureBox from "../../ui/PictureBox";
 
 function ProjectsItem({ project }) {
   const picUri = `images/projects/${project.name}/${project.thumbnail}`;
 
   return (
     <a className="projects-item__container" href="ijon.art">
-      <div className="projects-item__pic-box">
-        <img
-          src={picUri}
-          className="projects-item__picture"
-          alt={project.title}
-        />
-      </div>
+      <PictureBox
+        className=""
+        aspectRatio=""
+        img={picUri}
+        alt={project.title}
+      />
       <h4 className="projects-item__title">{project.title}</h4>
     </a>
   );
