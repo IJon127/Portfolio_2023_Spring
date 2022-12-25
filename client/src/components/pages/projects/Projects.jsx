@@ -2,7 +2,7 @@ import "./Projects.css";
 import Tags from "../../ui/tags/Tags";
 import ProjectsItem from "./ProjectsItem";
 import { useState, useEffect } from "react";
-//import axios from "axios";
+import { motion, AnimatePresence } from "framer-motion";
 
 const tags = [
   "Show All",
@@ -30,7 +30,7 @@ function Projects() {
   }, []);
 
   return (
-    <div>
+    <div className="projects">
       <Tags
         tags={tags}
         activeTag={activeTag}
@@ -38,11 +38,13 @@ function Projects() {
         setFilteredItems={setFilteredProjects}
         allItems={allProjects}
       />
-      <div className="projects__container">
-        {filteredProjects.map((project) => (
-          <ProjectsItem key={project.name} project={project} />
-        ))}
-      </div>
+      <motion.div layout className="projects__container">
+        <AnimatePresence>
+          {filteredProjects.map((project) => (
+            <ProjectsItem key={project.name} project={project} />
+          ))}
+        </AnimatePresence>
+      </motion.div>
     </div>
   );
 }

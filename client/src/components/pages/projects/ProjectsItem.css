@@ -1,5 +1,6 @@
 .projects-item__container {
   width: 100%;
+  overflow: hidden;
 }
 
 .projects-item__title {
