@@ -1,11 +1,12 @@
 import "./ExercisesItem.css";
 import PictureBox from "../../ui/PictureBox";
 
-function ExercisesItem(props) {
+function ExercisesItem({ exercise }) {
+  const picUri = `images/exercises/${exercise.thumbnail}`;
   return (
-    <a className="exercises-item__container" href="">
-      <PictureBox aspectRatio="1/1" img={props.img} alt={props.title} />
-      <h4 className="exercises-item__title">{props.title}</h4>
+    <a className="exercises-item__container" href="ijon.art">
+      <PictureBox aspectRatio="1/1" img={picUri} alt={exercise.date} />
+      <h4 className="exercises-item__title">{exercise.date}</h4>
     </a>
   );
 }
