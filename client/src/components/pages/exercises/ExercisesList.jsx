@@ -10,7 +10,7 @@ function ExercisesList({ category, allExercises }) {
 
   useEffect(() => {
     setFilteredExercises(allExercises);
-  }, []);
+  }, [allExercises]);
 
   return (
     <div className="exercises-list">

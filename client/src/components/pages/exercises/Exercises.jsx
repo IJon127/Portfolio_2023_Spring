@@ -10,13 +10,13 @@ function Exercises() {
     { name: "3D", tags: ["Show All", "Blender"] },
     { name: "game dev", tags: ["Show All", "Unity"] },
   ];
-  //let allExercisesData;
+
   const [allExercises, setAllExercises] = useState([]);
 
   const fetchExercises = async () => {
-    const res = await fetch("api/exercises");
-    const dataIn = await res.json();
-    setAllExercises(dataIn.data.exercises);
+    fetch("api/exercises")
+      .then((res) => res.json())
+      .then((resData) => setAllExercises(resData.data.exercises));
   };
 
   useEffect(() => {
