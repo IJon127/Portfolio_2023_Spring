@@ -1,10 +1,11 @@
-import "./About.css";
+import "./AboutItem.css";
 
-function AboutItem(props) {
+function AboutItem({ firstLine, secondLine }) {
   return (
-    <a className="About-item__container" href="">
-      <h4 className="About-item__title">{props.title}</h4>
-    </a>
+    <div className="about-item__container">
+      <h4 className="about-item__title">{firstLine}</h4>
+      <p>{secondLine}</p>
+    </div>
   );
 }
 
