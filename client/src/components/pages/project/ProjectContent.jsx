@@ -16,7 +16,9 @@ function ProjectContent({ project }) {
 
       <div className="project-content__description-container">
         {project.description.map((para) => (
-          <p className="project-content__description">{para}</p>
+          <p className="project-content__description" key={para}>
+            {para}
+          </p>
         ))}
       </div>
       {project.readMore && (
