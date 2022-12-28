@@ -3,7 +3,7 @@ import PictureBox from "../../ui/PictureBox";
 import { motion } from "framer-motion";
 
 function ProjectsItem({ project }) {
-  const picUri = `images/projects/${project.name}/${project.thumbnail}`;
+  const picUri = `/images/projects/${project.name}/${project.thumbnail}`;
 
   return (
     <motion.div

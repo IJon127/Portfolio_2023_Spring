@@ -5,11 +5,11 @@ function ProjectGallery({ project, gallery }) {
   return (
     <div className="project-gallery">
       {gallery.map((pic) => (
-        <button>
+        <button key={pic}>
           <PictureBox
             className=""
             aspectRatio="1/1"
-            img={`images/projects/${project}/${pic}`}
+            img={`/images/projects/${project}/${pic}`}
             alt={project}
           />
         </button>
