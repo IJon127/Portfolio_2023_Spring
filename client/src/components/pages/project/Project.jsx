@@ -86,15 +86,14 @@ function Project() {
           className="project__video"
           title={project.name}
           src={project.videoURL}
-          frameborder="0"
-          allowfullscreen="allowfullscreen"
+          frameBorder="0"
         ></iframe>
       )}
       {!project.videoURL && (
         <PictureBox
           className="project__heroImg"
           aspectRatio="2/1"
-          img={`images/projects/${project.name}/${project.heroImage}`}
+          img={`/images/projects/${project.name}/${project.heroImage}`}
           alt={project.name}
         />
       )}
