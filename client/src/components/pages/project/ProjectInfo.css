@@ -1,0 +1,15 @@
+.project-info {
+  margin-top: 80px;
+  margin-bottom: 60px;
+}
+.project-info__title {
+  font-weight: 300;
+}
+.project-info__subtitle {
+  margin-bottom: 20px;
+}
+
+.project-info__content {
+  font-style: italic;
+  font-size: 14px;
+}

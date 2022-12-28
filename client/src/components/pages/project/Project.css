@@ -1,0 +1,9 @@
+.project {
+  max-width: 1200px;
+  /* padding: 0px 100px; */
+}
+
+.project__video {
+  width: 100%;
+  aspect-ratio: 16/9;
+}
