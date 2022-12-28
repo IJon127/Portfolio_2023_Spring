@@ -1,7 +1,7 @@
 import "./NavSocial.css";
 
 function NavSocialBtn(props) {
-  const icon = "icons/" + props.icon + ".svg";
+  const icon = "/icons/" + props.icon + ".svg";
 
   return (
     <a
