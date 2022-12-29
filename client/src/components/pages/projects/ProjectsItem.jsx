@@ -13,7 +13,7 @@ function ProjectsItem({ project }) {
       layout
       className="projects-item__container"
     >
-      <a href="ijon.art">
+      <a href={`/${project.name}`}>
         <PictureBox
           className=""
           aspectRatio=""
