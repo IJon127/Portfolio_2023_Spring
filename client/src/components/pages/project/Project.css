@@ -7,3 +7,9 @@
   width: 100%;
   aspect-ratio: 16/9;
 }
+.project__supportImg {
+  width: 100%;
+  max-width: 900px;
+  object-fit: contain;
+  margin-top: 50px;
+}
