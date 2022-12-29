@@ -6,6 +6,7 @@
     "subtitle": "Extracting and Overlaying Urban Images for Interactive Spatiality",
     "types": ["Professional", "Group"],
     "team": ["Tien Ling", "Ling Lee"],
+    "company": null,
     "time": "Fall 2019",
     "location": "Taichung City, Taiwan",
     "venue": "National Taichung Theater: IMAGE Theater",
@@ -21,7 +22,7 @@
         "paragraphs": [
           "In the seminal book “Image of the City”, Lynch argues that the understanding of cities are formed by our perceptions. From a cognitive psychological point of view, the “imaging” of cities is a form of cognitive mapping: Because of the limitation of cognitive capacity, our brains naturally filter secondary information or background noises to cope with overwhelming information. The imagery in ACAITL represents the selective mechanism in terms of perceiving and conceiving urban spatial information through a three- step procedure— “Documentation”, “Coding”, and “Projection”."
         ],
-        "lists": []
+        "lists": null
       },
       {
         "title": null,
@@ -29,7 +30,7 @@
         "paragraphs": [
           "In this phase, we photograph the city with a 360-degree video camera to get comprehensive panoramic shots while moving along boulevard. The images sampled from the video serves as the foundation to reconstruct the urban experience"
         ],
-        "lists": []
+        "lists": null
       },
       {
         "title": null,
@@ -37,7 +38,7 @@
         "paragraphs": [
           "Photographic representations of the city are reproduced into a series of color-coded images. Environmental objects are categorized, grouped and layered before colorized in a four- color printing manner, except for that we are painting here with color lights, taking advantage of a RGB color model for its additive nature. A rather complicated coding pattern is established to carefully assign contrasting colors to different groups of visual elements, in order to create overlapping addition of lights. A car would be projected in red and yellow from one projector, as well as cyan and blue from another. If one is to move in front of the two projectors, the car would be seen as white first (no shadow), and then either red or blue (alternative shadows), depending on the relative locations of the viewer blocking the lights."
         ],
-        "lists": []
+        "lists": null
       },
       {
         "title": null,
@@ -45,7 +46,7 @@
         "paragraphs": [
           "In the final presentation, multiple projectors are arranged to overlay the color-coded images together to reconstruct the original view of the city. We use the additive model to sum up the primary and secondary colors into white, creating light grey silhouettes that vaguely hints at an urban landscape underneath. This layered visuals await for involvement from participants. When one step in front of one of the projections, the shadow of the person, instead of appearing black for lack of light, unexpectedly reveals the highly contrasted shapes of saturated colors coming from the directions of other projectors. In a sense, this is a “decoding” process, highlighting some of the layers of urban information by blocking the light that “conceals” the colors. Every time someone interacts with the projections by intuitively playing with the shadows, the representation of the city also transforms. Each action, and the visual reaction, is unique."
         ],
-        "lists": []
+        "lists": null
       },
       {
         "title": "The Sound",
@@ -53,12 +54,23 @@
         "paragraphs": [
           "ACAITL applies ambisonic technology to create an audio environment that also contributes to the immersive spatial experience. While the visual images work as stop-frame slideshow animation (each frame lasting 4 seconds), the audio is played back in real time, creating an instantly recognizable urban backbeat. It brings a dynamic sensation of spatiality and excitement, as if witnessing a head-on vehicle passing through from the front to the rear. Urban ambient sounds are recorded using an all-directional microphone, and then mixed with electronic beats and noises. Recognizable patterns and site-specific sounds are carefully mixed to juxtapose with the visuals of city landmarks. The final audio work is played through six channels to create a surrounding audio environment to enhance the movement of the visual as well as the flowingnsensation in the space."
         ],
-        "lists": []
+        "lists": null
       }
     ],
-    "heroImage": "",
-    "supportImages": [""],
-    "gallery": [""],
+    "heroImage": "10.jpg",
+    "supportImages": ["12.png"],
+    "gallery": [
+      "10.jpg",
+      "01.jpg",
+      "02.jpg",
+      "03.jpg",
+      "04.jpg",
+      "05.jpg",
+      "06.jpg",
+      "07.jpg",
+      "08.jpg",
+      "09.jpg"
+    ],
     "videoURL": "https://www.youtube.com/embed/lKq4ic5Q_bg?rel=0"
   },
   {
@@ -68,6 +80,7 @@
     "subtitle": "Playful Communication for Serious Research",
     "types": ["Academic", "Group"],
     "team": ["Jinny Kang", "Qiongting Zhang", "Stephanie Chen"],
+    "company": null,
     "time": "Spring 2022",
     "location": "New York, U.S.",
     "venue": null,
@@ -78,9 +91,9 @@
       "The game includes 2 distinct stages within a song: Stage 1, both players are given the same rhythm game (beats) that are created to match the rhythm of the song perfectly. Stage 2, based on which animal a player chose, beats are presented based on how animals would dance to a rhythm. By playing the rhythm game as if being the animal, players can sense and experience how the selected animal perceives and reacts to rhythm and beats."
     ],
     "readMore": null,
-    "heroImage": "",
-    "supportImages": [""],
-    "gallery": [""],
+    "heroImage": "02.jpg",
+    "supportImages": null,
+    "gallery": ["02.jpg"],
     "videoURL": "https://www.youtube.com/embed/kZIPu9abrxU?rel=0"
   },
   {
@@ -89,19 +102,20 @@
     "title": "Tree Shadow Lamp",
     "subtitle": "Meditation Roly-poly Lamp",
     "types": ["Academic"],
-    "team": [],
+    "team": null,
+    "company": null,
     "time": "Spring 2022",
     "location": "New York, U.S.",
-    "venue": "",
+    "venue": null,
     "tags": ["Installation", "Projection", "Product Design"],
     "description": [
       "Tree Shadow Lamp is a roly-poly table lamp for meditation. It is inspired by the soothing nature of tree shadows. The lamp connects with a p5 sketch projected in the space. When people gently sway the lamp, the internal accelerometer will generate data for the p5 sketch to trigger the animation and sound.",
       "There are three LED bulbs in the lamp. Each bulb connects to the Arduino 33 IoT build-in gyroscope’s X, Y, and Z values, respectively. The three shadow videos and the sound of leaves rustling in the P5 sketch are also linked to the gyroscope data; when the gyroscope detects axial motion, the opacity of the videos and the volume of sound increase. Likewise, while the movement stops, the opacity and volume decline."
     ],
-    "readMore": [""],
-    "heroImage": "",
-    "supportImages": [""],
-    "gallery": [""],
+    "readMore": null,
+    "heroImage": "01.jpg",
+    "supportImages": null,
+    "gallery": ["01.jpg", "02.jpg"],
     "videoURL": "https://www.youtube.com/embed/fuY_m-tWCvw?rel=0"
   },
   {
@@ -110,47 +124,52 @@
     "title": "Finger Spray",
     "subtitle": "Digital Painting Tool for Art Therapy",
     "types": ["Academic"],
-    "team": [],
+    "team": null,
+    "company": null,
     "time": "Fall 2021",
     "location": "New York, U.S.",
-    "venue": "",
+    "venue": null,
     "tags": ["Installation"],
     "description": [
       "Finger Spray is a painting tool based on an art therapy framework - Expressive Therapies Continuum (ETC). The ETC is a hierarchical, continuous model that classifies the interaction between humans and the creative medium by information processing. This project focuses on the Kinesthetics/Sensory and the Perceptual/ Affective levels of the ETC framework.",
       "Participants will wear a special glove on their dominant hand to paint on the virtual canvas by clicking the thumb with the index finger. Inside the middle finger of the glove is a forcing sensor that controls the radius of the spray. The tighter the fist grasped, the smaller the spray range. A color palette and a color picker are in front of the canvas. People move the color picker to take the color for the spray.",
       "Except for the canvas, an auto-generated report behind the scene will analyze the creative process by assessing the composition of the color, the proportion of the blank space on the canvas, the color choice by time, how long you have held tightly, and how tight, etc. Then, while participants finish their drawing and press the \"done\" button, The report will show on the screen."
     ],
-    "readMore": [""],
-    "heroImage": "",
-    "supportImages": [""],
-    "gallery": [""],
+    "readMore": null,
+    "heroImage": "01.jpg",
+    "supportImages": ["02.png"],
+    "gallery": ["01.jpg", "03.jpg", "04.jpg"],
     "videoURL": "https://www.youtube.com/embed/D6EtLOoIQZU?rel=0"
   },
   {
     "name": "doggolinko",
     "thumbnail": "01.png",
     "title": "Doggolinko",
-    "subtitle": "",
+    "subtitle": "Connect to Your Pet from Anywhere",
     "types": ["Academic"],
-    "team": [],
+    "team": null,
+    "company": null,
     "time": "Spring 2022",
     "location": "New York, U.S.",
-    "venue": "",
+    "venue": null,
     "tags": ["Product Design"],
-    "description": [""],
-    "readMore": [],
-    "heroImage": "",
-    "supportImages": [""],
-    "gallery": [""],
-    "videoURL": ""
+    "description": [
+      "As an international student in New york, I missed my dogs in Taiwan so bad and wanted to build connections with them. DoggoLinko is a pet sensing picture frame. The installation will be PIR sensors put in front of my dogs’ beds in Taiwan and two picture frames with my dogs’ photos in my NY apartment. When one dog goes back to its bed, the picture frame will be opened(by servo, maybe)."
+    ],
+    "readMore": null,
+    "heroImage": "01.png",
+    "supportImages": null,
+    "gallery": ["02.png", "03.png", "04.png"],
+    "videoURL": null
   },
   {
     "name": "ibrijomeesean_ibrary",
     "thumbnail": "01.png",
     "title": "Ibrijomeesean Library",
-    "subtitle": "",
+    "subtitle": "Snakes and Ladders Game Modification",
     "types": ["Academic", "Group"],
-    "team": [],
+    "team": ["MeeNa Ko", "Sean Zhu", "Ibrahim Hashmat"],
+    "company": null,
     "time": "Fall 2021",
     "location": "New York, U.S.",
     "venue": null,
@@ -163,7 +182,7 @@
       {
         "title": null,
         "subtitle": "Starting The Game/ Setting Up The Board UP",
-        "paragraphs": [],
+        "paragraphs": null,
         "lists": [
           "Books will be placed randomly across the shelves. Ladder placement will be determined by the GM",
           "Each player will randomly draw 3 different subject cards to place on their SCHEDULE CARDS. These schedule cards will determine what color books each player will collect.",
@@ -173,7 +192,7 @@
       {
         "title": null,
         "subtitle": "Movement Logic",
-        "paragraphs": [],
+        "paragraphs": null,
         "lists": [
           "Players must choose whether their dice roll will contribute to library movement OR their reading time. If you have NOT acquired a book, you MUST allocate dice values to library movement.",
           "Players must use ALL of the movement values determined by the dice.",
@@ -187,9 +206,9 @@
         ]
       }
     ],
-    "heroImage": "",
-    "supportImages": [""],
-    "gallery": [""],
+    "heroImage": "01.png",
+    "supportImages": null,
+    "gallery": ["02.png", "03.png", "04.png", "05.png", "06.png"],
     "videoURL": null
   },
   {
@@ -198,7 +217,8 @@
     "title": "OnOnNature",
     "subtitle": "Famwood Flagship Store and Restaurant",
     "types": ["Professional", "Project Manager"],
-    "team": ["Studiobase Architects"],
+    "team": null,
+    "company": "Studiobase Architects",
     "time": "2014 - 2018",
     "location": "Taichung City, Taiwan",
     "venue": null,
@@ -207,10 +227,19 @@
       "This project can be divided to two parts - main building and outdoor exhibit area. The main building combines three functions; a restaurant, guesthouse and office. Likewise, the outdoor area is organized to display \"Mobile Tiny House\", the main product of Famwood.",
       "The site is located alongside a well-known tourist bicycle path in Taichung city. In order to attract rapidly passing tourists, the facade of the main building is extended by wooden structure. Meanwhile, the wooden columns constitute a fence of the site. The restaurant is the only part opened to the public. It has been lifted up to the second floor. Then customers in the restaurant can have great view of the bicycle path."
     ],
-    "readMore": [],
-    "heroImage": "",
-    "supportImages": [""],
-    "gallery": [""],
+    "readMore": null,
+    "heroImage": "11.jpg",
+    "supportImages": ["10.jpg"],
+    "gallery": [
+      "02.jpg",
+      "03.jpg",
+      "04.jpg",
+      "05.jpg",
+      "06.jpg",
+      "07.jpg",
+      "08.jpg",
+      "09.jpg"
+    ],
     "videoURL": null
   },
   {
@@ -220,6 +249,7 @@
     "subtitle": "Shelter School - Re School 2018 Architecture Competition",
     "types": ["Professional", "Group"],
     "team": ["Ling Lee"],
+    "company": null,
     "time": "Summer 2018",
     "location": "Taiwan",
     "venue": null,
@@ -229,10 +259,10 @@
       "Often the stricken area is inaccessible by vehicles, so aid organizations airdrop relief supplies by helicopter. Our design incorporates the containers and other transportation materials (sack bags, canvas, and mesh) as components of the construction.",
       "The building is divided into three parts: first-floor load bearing walls, a second floor made of mesh, and a roof. The first floor utilizes two forms of wall: one constituted by bags filled with readily available mud, rubble or debris, the other composed of used bottles. These walls not only form space on the ground floor but are also erected to act as the structure supporting the mesh layer. Due to the unpredictability of aftershocks, the building design foregoes a heavy roof. Instead, the roof is made from the original canvas used to package emergency supplies."
     ],
-    "readMore": [],
-    "heroImage": "",
-    "supportImages": [""],
-    "gallery": [""],
+    "readMore": null,
+    "heroImage": "01.jpg",
+    "supportImages": null,
+    "gallery": ["02.jpg", "03.jpg"],
     "videoURL": null
   },
   {
@@ -241,10 +271,11 @@
     "title": "RehaBamboo",
     "subtitle": "Bamboo Habitat Rehab Institution",
     "types": ["Professional"],
-    "team": [],
+    "team": null,
+    "company": null,
     "time": "2012 - 2013",
     "location": "Taipei, Taiwan",
-    "venue": "",
+    "venue": null,
     "tags": ["Architecture"],
     "description": [
       "RehaBAMBOO is an institution which provides a healing process for people who are struggling with drug abuse. It incorporates three different timelines into one project.",
@@ -260,21 +291,29 @@
           "RehaBAMBOO utilizes an existing 6-acre vacant site - a former military prison. About 20% of the site area is devoted to a medical and educational complex that provides ministration, care and training. Self-built houses compose about 40% of the site as a rehab village, while the rest of the area is devoted to the planting of the bamboo. The life and production of bamboo is studied and quantified as a parameter to organize the campus landscape: the planning area provides enough material for 300 living units to be build within a period of threes years. Water pools are also strategically designed and placed for preservation treatment and leisure.",
           "With new bamboos planted continuously, and mature plants taken down as building material, RehaBAMBOO forms a self-sustainable building, landscape and construction cycle."
         ],
-        "lists": []
+        "lists": null
       },
       {
         "title": null,
         "subtitle": "References",
-        "paragraphs": [],
+        "paragraphs": null,
         "lists": [
           "Goffman, E. (1961). Asylums: Essays on the social situation of mental patient and other inmates. New York: Anchor Books.",
           "Hawkins, J. (n.d.). Social networks: Dunbar's 5-15-50-150 model (sympathy group & full active network). Retrieved from: http://goodmedicine.org.uk/node/1210"
         ]
       }
     ],
-    "heroImage": "",
-    "supportImages": [""],
-    "gallery": [""],
+    "heroImage": "01.jpg",
+    "supportImages": null,
+    "gallery": [
+      "02.jpg",
+      "08.jpg",
+      "03.jpg",
+      "04.jpg",
+      "05.jpg",
+      "06.jpg",
+      "07.png"
+    ],
     "videoURL": null
   }
 ]
