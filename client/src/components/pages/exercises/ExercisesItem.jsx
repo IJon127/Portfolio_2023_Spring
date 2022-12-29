@@ -1,13 +1,22 @@
 import "./ExercisesItem.css";
 import PictureBox from "../../ui/PictureBox";
+import { motion } from "framer-motion";
 
 function ExercisesItem({ exercise }) {
   const picUri = `images/exercises/${exercise.thumbnail}`;
   return (
-    <button className="exercises-item__container">
-      <PictureBox aspectRatio="1/1" img={picUri} alt={exercise.date} />
-      <h4 className="exercises-item__title">{exercise.date}</h4>
-    </button>
+    <motion.div
+      animate={{ opacity: 1 }}
+      initial={{ opacity: 0 }}
+      exit={{ opacity: 0 }}
+      layout
+      className="exercises-item__container"
+    >
+      <button className="">
+        <PictureBox aspectRatio="1/1" img={picUri} alt={exercise.date} />
+        <h4 className="exercises-item__title">{exercise.date}</h4>
+      </button>
+    </motion.div>
   );
 }
 

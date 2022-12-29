@@ -1,14 +1,14 @@
 import ExercisesList from "./ExercisesList";
 import { useState, useEffect } from "react";
+import "./Exercises.css";
 
 function Exercises() {
   const catagories = [
     {
       name: "creative coding",
-      tags: ["Show All", "p5.js", "Processing", "Openframworks", "OpenGL"],
+      tags: ["Show All", "p5.js", "Processing", "openFrameworks", "OpenGL"],
     },
     { name: "3D", tags: ["Show All", "Blender"] },
-    { name: "game dev", tags: ["Show All", "Unity"] },
   ];
 
   const [allExercises, setAllExercises] = useState([]);
@@ -16,7 +16,12 @@ function Exercises() {
   const fetchExercises = async () => {
     fetch("api/exercises")
       .then((res) => res.json())
-      .then((resData) => setAllExercises(resData.data.exercises));
+      .then((resData) => {
+        const sortByDate = (a, b) => b.date - a.date;
+        const exercisesData = resData.data.exercises;
+        exercisesData.sort(sortByDate);
+        setAllExercises(exercisesData);
+      });
   };
 
   useEffect(() => {
@@ -24,7 +29,7 @@ function Exercises() {
   }, []);
 
   return (
-    <div className="">
+    <div className="exercises">
       {catagories.map((category) => (
         <ExercisesList
           key={category.name}
