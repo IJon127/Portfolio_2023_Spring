@@ -1,5 +1,8 @@
-.App {
+.app {
   width: 100%;
+}
+.app__main {
+  padding-top: 160px;
 }
 
 .title {

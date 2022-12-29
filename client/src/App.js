@@ -13,9 +13,9 @@ import "./App.css";
 
 function App() {
   return (
-    <div className="App">
+    <div className="app">
       <Header />
-      <Main>
+      <Main className="app__main">
         <Routes>
           <Route index element={<Home />} />
           <Route path="projects" element={<Projects />} />
