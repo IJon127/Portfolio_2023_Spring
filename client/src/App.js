@@ -7,6 +7,7 @@ import Home from "./components/pages/home/Home";
 import Projects from "./components/pages/projects/Projects";
 import Project from "./components/pages/project/Project";
 import Exercises from "./components/pages/exercises/Exercises";
+import Papers from "./components/pages/papers/Papers";
 import About from "./components/pages/about/About";
 
 import "./App.css";
@@ -20,6 +21,7 @@ function App() {
           <Route index element={<Home />} />
           <Route path="projects" element={<Projects />} />
           <Route path="exercises" element={<Exercises />} />
+          <Route path="papers" element={<Papers />} />
           <Route path="about" element={<About />} />
           <Route path="/:projectName" element={<Project />} />
         </Routes>
