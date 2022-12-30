@@ -1,0 +1,8 @@
+.papers__container {
+  margin-bottom: 50px;
+  max-width: 900px;
+}
+.papers__title {
+  font-weight: 400;
+  margin-bottom: 20px;
+}
