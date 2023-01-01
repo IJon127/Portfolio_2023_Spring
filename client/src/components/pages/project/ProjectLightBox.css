@@ -1,0 +1,48 @@
+.project-light-box {
+  background-color: rgba(0, 0, 0, 0.95);
+  z-index: 200;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.project-light-box__close-btn-container {
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.project-light-box__close-btn {
+  font-size: 25px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0);
+  float: right;
+  padding: 25px 20px;
+}
+
+.project-light-box__arrow-container {
+  top: 50%;
+  background-color: rgba(0, 0, 0, 0);
+  transform: translate(0, -50%);
+  width: 100%;
+  position: absolute;
+}
+.project-light-box__arrow {
+  color: white;
+  background-color: rgba(0, 0, 0, 0);
+  font-size: 60px;
+  padding: 20px;
+}
+.project-light-box__arrow-next {
+  float: right;
+}
+.project-light-box__img {
+  width: 70vw;
+  height: 70vh;
+  background-color: rgba(0, 0, 0, 0);
+  object-fit: contain;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
