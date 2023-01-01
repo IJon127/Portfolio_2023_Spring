@@ -10,7 +10,7 @@ function Tags({ tags, activeTag, setActiveTag, setFilteredItems, allItems }) {
     }
     const filtered = allItems.filter((item) => item.tags.includes(activeTag));
     setFilteredItems(filtered);
-  }, [activeTag]);
+  }, [activeTag, allItems, setFilteredItems]);
 
   return (
     <div className="tags__container">
