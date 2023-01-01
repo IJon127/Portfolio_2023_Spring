@@ -23,8 +23,9 @@ function About() {
     <div>
       <div className="about__container">
         <h2 className="title">Education</h2>
-        {allEducation.map((education) => (
+        {allEducation.map((education, index) => (
           <AboutItem
+            key={index}
             firstLine={education.program}
             secondLine={education.school}
           />
@@ -32,8 +33,9 @@ function About() {
       </div>
       <div className="about__container">
         <h2 className="title">Experiences</h2>
-        {allExperiences.map((experience) => (
+        {allExperiences.map((experience, index) => (
           <AboutItem
+            key={index}
             firstLine={`${experience.company}, ${experience.location}`}
             secondLine={`${experience.role}, ${experience.time}`}
           />
