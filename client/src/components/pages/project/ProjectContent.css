@@ -1,15 +1,10 @@
 .project-content {
   max-width: 900px;
 }
-.project-content__description-container {
+
+.project-content__description {
   margin-top: 50px;
 }
-.project-content__description {
-  margin-bottom: 15px;
-}
-
-.project-content__readMore-btn {
-  font-size: 18px;
-  font-weight: 300;
-  justify-content: end;
+.project-content__readMore {
+  overflow: hidden;
 }
