@@ -1,5 +1,6 @@
 import { useParams } from "react-router-dom";
 import { useState, useEffect } from "react";
+
 import "./Project.css";
 import PictureBox from "../../ui/PictureBox";
 import ProjectContent from "./ProjectContent";
@@ -11,18 +12,7 @@ function Project() {
   const [project, setProject] = useState({});
   const [isLoading, setIsLoading] = useState(true);
 
-  // const fetchProject = async () => {
-  //   fetch(`api/projects/${projectName}`)
-  //     .then((res) => res.json())
-  //     .then((resData) => {
-  //       setProject(resData.data.project);
-  //       setIsLoading(false);
-  //     })
-  //     .catch((err) => console.log(err.message));
-  // };
-
   useEffect(() => {
-    // fetchProject();
     fetch(`api/projects/${projectName}`)
       .then((res) => res.json())
       .then((resData) => {
@@ -33,7 +23,7 @@ function Project() {
   }, [projectName]);
 
   if (isLoading) {
-    return <h1>loading</h1>;
+    return;
   }
 
   return (
@@ -58,6 +48,7 @@ function Project() {
       {project.supportImages &&
         project.supportImages.map((pic) => (
           <img
+            key={pic}
             className="project__supportImg"
             src={`/images/projects/${projectName}/${pic}`}
             alt={projectName}
