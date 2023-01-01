@@ -46,3 +46,19 @@
   left: 50%;
   transform: translate(-50%, -50%);
 }
+
+@media only screen and (min-width: 427px) and (max-width: 768px) {
+}
+@media only screen and (min-width: 0px) and (max-width: 426px) {
+  .project-light-box__close-btn {
+    padding: 15px 0px;
+  }
+  .project-light-box__arrow {
+    font-size: 50px;
+    padding: 12px;
+  }
+  .project-light-box__img {
+    width: 90vw;
+    height: 70vh;
+  }
+}

@@ -1,9 +1,12 @@
 import "./Footer.css";
 
 function Footer() {
+  const linkToTop = () => {
+    window.scrollTo(0, 0);
+  };
   return (
     <div className="footer">
-      <button>
+      <button onClick={linkToTop}>
         <p className="footer__top">↑ top</p>
       </button>
       <p className="footer__copyright">

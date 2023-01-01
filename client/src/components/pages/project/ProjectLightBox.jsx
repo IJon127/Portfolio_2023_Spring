@@ -43,6 +43,7 @@ function ProjectLightBox({
           ✕
         </button>
       </Main>
+      <img className="project-light-box__img" src={img} alt="" />
       <Main className="project-light-box__arrow-container">
         {showBackArrow && (
           <button
@@ -61,7 +62,6 @@ function ProjectLightBox({
           </button>
         )}
       </Main>
-      <img className="project-light-box__img" src={img} alt="" />
     </div>,
 
     document.getElementById("modal")
