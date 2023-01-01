@@ -11,5 +11,11 @@
 
 .project-info__content p {
   font-style: italic;
-  font-size: 14px;
+  font-size: 13px;
+}
+
+@media only screen and (max-width: 426px) {
+  .project-info__content p {
+    font-size: 11px;
+  }
 }

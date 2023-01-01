@@ -4,8 +4,18 @@
 
 .projects__container {
   display: grid;
-  /* grid-template-columns: repeat(auto-fit, minmax(400px, 1fr)); */
   grid-template-columns: repeat(2, 1fr);
   gap: 50px 18px;
   overflow: hidden;
+}
+
+@media only screen and (min-width: 427px) and (max-width: 768px) {
+  .projects__container {
+    gap: 50px 10px;
+  }
+}
+@media only screen and (min-width: 0px) and (max-width: 426px) {
+  .projects__container {
+    grid-template-columns: repeat(1, 1fr);
+  }
 }
