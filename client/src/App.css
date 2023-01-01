@@ -28,4 +28,7 @@
   .readMore-btn {
     font-size: 16px;
   }
+  .app__main {
+    padding-top: 140px;
+  }
 }
