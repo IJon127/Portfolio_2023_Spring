@@ -1,0 +1,11 @@
+.project-readMore {
+  margin-top: 50px;
+}
+.project-readMore__title-subtitle {
+  margin-bottom: 20px;
+  font-weight: 300;
+}
+
+.project-readMore__ul {
+  list-style-type: disc;
+}
