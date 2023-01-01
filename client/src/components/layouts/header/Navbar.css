@@ -1,6 +1,6 @@
 .navbar {
-  display: flex;
   align-items: center;
+  display: flex;
 }
 .navbar__btn {
   margin-right: 30px;
@@ -8,4 +8,10 @@
 
 .navbar a.active {
   font-weight: 300;
+}
+
+@media only screen and (max-width: 768px) {
+  .navbar {
+    display: none;
+  }
 }

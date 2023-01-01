@@ -1,10 +1,15 @@
-import "./Header.css";
-import Main from "../main/Main";
+import { useState } from "react";
 
+import "./Header.css";
+
+import Main from "../main/Main";
 import Navbar from "./Navbar";
 import NavBurger from "./NavBurger";
+import NavSmallScreen from "./NavSmallScreen";
 
 function Header() {
+  const [navSmallScreenOpen, setNavSmallScreenOpen] = useState(false);
+
   return (
     <Main className="header">
       <div className="header__container">
@@ -12,8 +17,11 @@ function Header() {
           i j
         </a>
         <Navbar />
-        <NavBurger />
+        <NavBurger setNavSmallScreenOpen={setNavSmallScreenOpen} />
       </div>
+      {navSmallScreenOpen && (
+        <NavSmallScreen setNavSmallScreenOpen={setNavSmallScreenOpen} />
+      )}
     </Main>
   );
 }

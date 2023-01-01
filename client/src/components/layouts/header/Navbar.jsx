@@ -1,9 +1,8 @@
 import "./Navbar.css";
-//import NavBtn from "./NavBtn";
 import NavSocial from "./NavSocial";
 import { NavLink } from "react-router-dom";
 
-function Navbar() {
+function Navbar({ className }) {
   const navBtns = [
     {
       id: 0,
