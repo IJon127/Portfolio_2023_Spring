@@ -71,30 +71,29 @@
       "08.jpg",
       "09.jpg"
     ],
-    "videoURL": "https://www.youtube.com/embed/lKq4ic5Q_bg?rel=0"
+    "videoURL": "https://player.vimeo.com/video/490556457?h=e42d76f2da&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
   },
   {
-    "name": "zooba_battle",
-    "thumbnail": "01.jpg",
-    "title": "Zooba Battle",
-    "subtitle": "Playful Communication for Serious Research",
+    "name": "under_the_water",
+    "thumbnail": "01.png",
+    "title": "Under the Water",
+    "subtitle": "Look Up! Is It the Sky or the Water?",
     "types": ["Academic", "Group"],
-    "team": ["Jinny Kang", "Qiongting Zhang", "Stephanie Chen"],
+    "team": ["Tuan Huang"],
     "company": null,
-    "time": "Spring 2022",
+    "time": "Winter 2022",
     "location": "New York, U.S.",
     "venue": null,
-    "tags": ["Installation", "Game Design"],
+    "tags": ["Installation", "Projection"],
     "description": [
-      "Zooba is a competitive and educational 2 player rhythm game that is based on studies and hypotheses of the link between vocal learning and vocal entrainment (dance) in various species.",
-      "You are given a selection of animals to choose from based on 6 categories: speed, vocal, power, auditory, beauty, and vision—with the prompt: “be the next dance champion”. Each animal will activate its own unique game pattern and all animals are ranked based on quantitative datasets from 0 to 5, with 5 being best, and 0 being worst.",
-      "The game includes 2 distinct stages within a song: Stage 1, both players are given the same rhythm game (beats) that are created to match the rhythm of the song perfectly. Stage 2, based on which animal a player chose, beats are presented based on how animals would dance to a rhythm. By playing the rhythm game as if being the animal, players can sense and experience how the selected animal perceives and reacts to rhythm and beats."
+      "Under The Water is an interactive art installation, where participants will experience the feeling under a pond. It is a simple interaction that provides a pause moment and to connect the individual to a bigger water body and space. Once you come in to the space, you are encouraged to stir the water by your hands.",
+      "The audiences will walk into the space, lookup to ceiling and see a projection of water body. They will be hinted to raise their hands, reaching towards the ceiling. And the movements of their hands will trigger ripples of the water. A kinect will be detecting users' heights, while they are reaching their hands towards the ceiling. And their movements will be mapped to the visuals that are projected to the canvas that is hung from ceiling."
     ],
     "readMore": null,
-    "heroImage": "02.jpg",
+    "heroImage": "01.png",
     "supportImages": null,
-    "gallery": ["02.jpg"],
-    "videoURL": "https://www.youtube.com/embed/kZIPu9abrxU?rel=0"
+    "gallery": ["02.png", "03.jpg", "04.jpg"],
+    "videoURL": "https://player.vimeo.com/video/785708899?h=21657481bc&badge=0&autopause=0&player_id=0&app_id=58479/embed"
   },
   {
     "name": "tree_shadow_lamp",
@@ -116,7 +115,30 @@
     "heroImage": "01.jpg",
     "supportImages": null,
     "gallery": ["01.jpg", "02.jpg"],
-    "videoURL": "https://www.youtube.com/embed/fuY_m-tWCvw?rel=0"
+    "videoURL": "https://player.vimeo.com/video/785711175?h=06fc946c4c&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
+  },
+  {
+    "name": "zooba_battle",
+    "thumbnail": "01.jpg",
+    "title": "Zooba Battle",
+    "subtitle": "Playful Communication for Serious Research",
+    "types": ["Academic", "Group"],
+    "team": ["Jinny Kang", "Qiongting Zhang", "Stephanie Chen"],
+    "company": null,
+    "time": "Spring 2022",
+    "location": "New York, U.S.",
+    "venue": null,
+    "tags": ["Installation", "Game Design"],
+    "description": [
+      "Zooba is a competitive and educational 2 player rhythm game that is based on studies and hypotheses of the link between vocal learning and vocal entrainment (dance) in various species.",
+      "You are given a selection of animals to choose from based on 6 categories: speed, vocal, power, auditory, beauty, and vision—with the prompt: “be the next dance champion”. Each animal will activate its own unique game pattern and all animals are ranked based on quantitative datasets from 0 to 5, with 5 being best, and 0 being worst.",
+      "The game includes 2 distinct stages within a song: Stage 1, both players are given the same rhythm game (beats) that are created to match the rhythm of the song perfectly. Stage 2, based on which animal a player chose, beats are presented based on how animals would dance to a rhythm. By playing the rhythm game as if being the animal, players can sense and experience how the selected animal perceives and reacts to rhythm and beats."
+    ],
+    "readMore": null,
+    "heroImage": "02.png",
+    "supportImages": null,
+    "gallery": ["02.png", "03.jpg", "04.jpg"],
+    "videoURL": "https://player.vimeo.com/video/785930738?h=95b311e0ef&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
   },
   {
     "name": "finger_spray",
@@ -139,7 +161,7 @@
     "heroImage": "01.jpg",
     "supportImages": ["02.png"],
     "gallery": ["01.jpg", "03.jpg", "04.jpg"],
-    "videoURL": "https://www.youtube.com/embed/D6EtLOoIQZU?rel=0"
+    "videoURL": "https://player.vimeo.com/video/785930066?h=350d0c8141&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
   },
   {
     "name": "doggolinko",
@@ -270,7 +292,7 @@
     "thumbnail": "01.jpg",
     "title": "RehaBamboo",
     "subtitle": "Bamboo Habitat Rehab Institution",
-    "types": ["Professional"],
+    "types": ["Academic"],
     "team": null,
     "company": null,
     "time": "2012 - 2013",
