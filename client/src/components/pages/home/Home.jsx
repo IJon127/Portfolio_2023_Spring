@@ -7,9 +7,9 @@ function Home() {
       <div className="home__text">
         <h2 className="title">I-Jon Hsieh</h2>
         <p>
-          I am an NYC-based creative technologist and architect from Taiwan. My
-          main focus is combining science and natural phenomena into
-          interactable art pieces, including interactive installations,
+          I am a New York based creative technologist and architect from Taiwan.
+          My main focus is combining daily observation and natural phenomena
+          into interactable art pieces, including interactive installations,
           generative art, games, and websites.
         </p>
       </div>
