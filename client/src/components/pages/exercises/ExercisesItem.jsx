@@ -12,10 +12,10 @@ function ExercisesItem({ exercise }) {
       layout
       className="exercises-item__container"
     >
-      <button className="">
+      <a href={exercise.link} target="_blank" rel="noreferrer">
         <PictureBox aspectRatio="1/1" img={picUri} alt={exercise.date} />
         <h4 className="exercises-item__title">{exercise.date}</h4>
-      </button>
+      </a>
     </motion.div>
   );
 }
