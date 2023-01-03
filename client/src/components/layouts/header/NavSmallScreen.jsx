@@ -8,24 +8,24 @@ import { NavLink } from "react-router-dom";
 function NavSmallScreen({ setNavSmallScreenOpen }) {
   const navBtns = [
     {
-      id: 0,
       name: "projects",
       link: "projects",
     },
     {
-      id: 1,
       name: "exercises",
       link: "exercises",
     },
     {
-      id: 2,
       name: "papers",
       link: "papers",
     },
     {
-      id: 3,
       name: "about",
       link: "about",
+    },
+    {
+      name: "contact",
+      link: "contact",
     },
   ];
 
@@ -40,10 +40,10 @@ function NavSmallScreen({ setNavSmallScreenOpen }) {
         </button>
       </Main>
       <div className="nav-small-screen__container">
-        {navBtns.map((navBtn) => (
+        {navBtns.map((navBtn, index) => (
           <NavLink
             className="nav-small-screen__btn"
-            key={navBtn.id}
+            key={index}
             to={navBtn.link}
             onClick={() => setNavSmallScreenOpen(false)}
           >
