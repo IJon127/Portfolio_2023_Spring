@@ -9,6 +9,7 @@ import Project from "./components/pages/project/Project";
 import Exercises from "./components/pages/exercises/Exercises";
 import Papers from "./components/pages/papers/Papers";
 import About from "./components/pages/about/About";
+import Contact from "./components/pages/contact/Contact";
 
 import "./App.css";
 
@@ -23,6 +24,7 @@ function App() {
           <Route path="exercises" element={<Exercises />} />
           <Route path="papers" element={<Papers />} />
           <Route path="about" element={<About />} />
+          <Route path="contact" element={<Contact />} />
           <Route path="/:projectName" element={<Project />} />
         </Routes>
       </Main>
