@@ -23,6 +23,8 @@ a {
   transition: all 0.3s ease;
 }
 a:hover {
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
   opacity: 0.6;
 }
 

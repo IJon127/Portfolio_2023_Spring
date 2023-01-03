@@ -29,9 +29,9 @@
 }
 .project-light-box__arrow {
   color: white;
-  background-color: rgba(0, 0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.5);
   font-size: 60px;
-  padding: 20px;
+  padding: 0px 20px 5px 20px;
 }
 .project-light-box__arrow-next {
   float: right;
@@ -55,7 +55,7 @@
   }
   .project-light-box__arrow {
     font-size: 50px;
-    padding: 12px;
+    padding: 0px 8px 5px 8px;
   }
   .project-light-box__img {
     width: 90vw;
