@@ -19,7 +19,7 @@ function getProjects(req, res) {
 }
 
 function getProjectByName(req, res) {
-  const project = projects.find((el) => el.name === req.params.name);
+  const project = projects.data.find((el) => el.name === req.params.name);
 
   if (!project) {
     return res

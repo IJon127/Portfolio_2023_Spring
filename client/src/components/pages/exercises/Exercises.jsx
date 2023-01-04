@@ -3,14 +3,7 @@ import { useState, useEffect } from "react";
 import "./Exercises.css";
 
 function Exercises() {
-  const catagories = [
-    {
-      name: "creative coding",
-      tags: ["Show All", "p5.js", "Processing", "openFrameworks", "OpenGL"],
-    },
-    { name: "3D", tags: ["Show All", "Blender"] },
-  ];
-
+  const [categories, setCategories] = useState([]);
   const [allExercises, setAllExercises] = useState([]);
 
   const fetchExercises = async () => {
@@ -18,7 +11,9 @@ function Exercises() {
       .then((res) => res.json())
       .then((resData) => {
         const sortByDate = (a, b) => b.date - a.date;
-        const exercisesData = resData.data.exercises;
+        const exercisesData = resData.data.exercises.data;
+        const categoriesData = resData.data.exercises.categories;
+        setCategories(categoriesData);
         exercisesData.sort(sortByDate);
         setAllExercises(exercisesData);
       });
@@ -30,7 +25,7 @@ function Exercises() {
 
   return (
     <div className="exercises">
-      {catagories.map((category) => (
+      {categories.map((category) => (
         <ExercisesList
           key={category.name}
           category={category}
