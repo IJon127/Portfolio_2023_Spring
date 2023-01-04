@@ -54,7 +54,6 @@ function ContactForm({
         setValidEmail(true);
       } else {
         setValidEmail(false);
-        console.log("Enter correct email address!");
       }
     },
     [setValidEmail]
@@ -95,7 +94,6 @@ function ContactForm({
         className="contact-form__input-box"
         type="text"
         name="guest_name"
-        disabled={emailSent}
         onChange={(e) => setInputName(e.target.value)}
       />
       <label className="contact-form__label">Email*</label>
@@ -103,14 +101,12 @@ function ContactForm({
         className="contact-form__input-box"
         type="email"
         name="guest_email"
-        disabled={emailSent}
         onChange={(e) => setInputEmail(e.target.value)}
       />
       <label className="contact-form__label">Message*</label>
       <textarea
         className="contact-form__input-box contact-form__message"
         name="message"
-        disabled={emailSent}
         onChange={(e) => setInputMessage(e.target.value)}
       />
       <input
@@ -118,7 +114,6 @@ function ContactForm({
         onClick={submitHandler}
         type={btnType}
         value="Send"
-        disabled={emailSent}
       />
     </form>
   );
