@@ -1,4 +1,5 @@
 import { createPortal } from "react-dom";
+import { motion } from "framer-motion";
 
 import "./NavSmallScreen.css";
 import NavSocial from "./NavSocial";
@@ -30,7 +31,13 @@ function NavSmallScreen({ setNavSmallScreenOpen }) {
   ];
 
   return createPortal(
-    <div className="nav-small-screen" scroll="no">
+    <motion.div
+      animate={{ x: 0 }}
+      initial={{ x: "-100%" }}
+      transition={{ type: "tween", duration: 0.25 }}
+      className="nav-small-screen"
+      scroll="no"
+    >
       <Main>
         <button
           onClick={() => setNavSmallScreenOpen(false)}
@@ -52,7 +59,7 @@ function NavSmallScreen({ setNavSmallScreenOpen }) {
         ))}
         <NavSocial />
       </div>
-    </div>,
+    </motion.div>,
     document.getElementById("modal")
   );
 }
