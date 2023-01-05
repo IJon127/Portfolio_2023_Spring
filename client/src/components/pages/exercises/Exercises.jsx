@@ -1,6 +1,6 @@
-import ExercisesList from "./ExercisesList";
 import { useState, useEffect } from "react";
 import "./Exercises.css";
+import ExercisesList from "./ExercisesList.jsx";
 
 function Exercises() {
   const [categories, setCategories] = useState([]);

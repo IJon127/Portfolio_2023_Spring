@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import "./Contact.css";
-import ContactForm from "./ContactForm";
+import ContactForm from "./ContactForm.jsx";
 
 function Contact() {
   const [emailSent, setEmailSent] = useState(false);

@@ -2,9 +2,9 @@ import { useParams } from "react-router-dom";
 import { useState, useEffect } from "react";
 
 import "./Project.css";
-import PictureBox from "../../ui/PictureBox";
-import ProjectContent from "./ProjectContent";
-import ProjectGallery from "./ProjectGallery";
+import PictureBox from "../../ui/PictureBox.jsx";
+import ProjectContent from "./ProjectContent.jsx";
+import ProjectGallery from "./ProjectGallery.jsx";
 
 function Project() {
   const params = useParams();

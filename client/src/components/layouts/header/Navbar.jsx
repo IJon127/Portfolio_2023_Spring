@@ -1,6 +1,6 @@
-import "./Navbar.css";
-import NavSocial from "./NavSocial";
 import { NavLink } from "react-router-dom";
+import "./Navbar.css";
+import NavSocial from "./NavSocial.jsx";
 
 function Navbar({ className }) {
   const navBtns = [

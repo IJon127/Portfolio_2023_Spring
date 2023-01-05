@@ -1,8 +1,8 @@
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import "./ProjectContent.css";
-import ProjectInfo from "./ProjectInfo";
-import ProjectReadMore from "./ProjectReadMore";
+import ProjectInfo from "./ProjectInfo.jsx";
+import ProjectReadMore from "./ProjectReadMore.jsx";
 
 function ProjectContent({ project }) {
   const [readMoreOpen, setReadMoreOpen] = useState(false);

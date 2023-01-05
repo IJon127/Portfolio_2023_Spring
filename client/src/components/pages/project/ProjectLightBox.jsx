@@ -2,7 +2,7 @@ import { createPortal } from "react-dom";
 import { useEffect, useState } from "react";
 
 import "./ProjectLightBox.css";
-import Main from "../../layouts/main/Main";
+import Main from "../../layouts/main/Main.jsx";
 
 function ProjectLightBox({
   className,

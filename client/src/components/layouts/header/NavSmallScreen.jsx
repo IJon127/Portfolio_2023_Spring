@@ -1,10 +1,10 @@
 import { createPortal } from "react-dom";
+import { NavLink } from "react-router-dom";
 import { motion } from "framer-motion";
 
 import "./NavSmallScreen.css";
-import NavSocial from "./NavSocial";
-import Main from "../../layouts/main/Main";
-import { NavLink } from "react-router-dom";
+import NavSocial from "./NavSocial.jsx";
+import Main from "../../layouts/main/Main.jsx";
 
 function NavSmallScreen({ setNavSmallScreenOpen }) {
   const navBtns = [

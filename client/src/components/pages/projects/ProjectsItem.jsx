@@ -1,6 +1,6 @@
-import "./ProjectsItem.css";
-import PictureBox from "../../ui/PictureBox";
 import { motion } from "framer-motion";
+import "./ProjectsItem.css";
+import PictureBox from "../../ui/PictureBox.jsx";
 
 function ProjectsItem({ project }) {
   const picUri = `/images/projects/${project.name}/${project.thumbnail}`;

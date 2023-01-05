@@ -1,5 +1,5 @@
 import "./NavSocial.css";
-import NavsocialBtn from "./NavSocialBtn";
+import NavsocialBtn from "./NavSocialBtn.jsx";
 
 const socialBtns = [
   {

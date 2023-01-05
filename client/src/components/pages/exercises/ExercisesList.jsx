@@ -1,8 +1,8 @@
-import "./ExercisesList.css";
-import Tags from "../../ui/tags/Tags";
-import ExercisesItem from "./ExercisesItem";
 import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
+import "./ExercisesList.css";
+import Tags from "../../ui/tags/Tags.jsx";
+import ExercisesItem from "./ExercisesItem.jsx";
 
 function ExercisesList({ category, allExercises }) {
   const [activeTag, setActiveTag] = useState("Show All");

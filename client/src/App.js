@@ -1,15 +1,15 @@
 import { Route, Routes } from "react-router-dom";
 
-import Header from "./components/layouts/header/Header";
-import Main from "./components/layouts/main/Main";
-import Footer from "./components/layouts/footer/Footer";
-import Home from "./components/pages/home/Home";
-import Projects from "./components/pages/projects/Projects";
-import Project from "./components/pages/project/Project";
-import Exercises from "./components/pages/exercises/Exercises";
-import Papers from "./components/pages/papers/Papers";
-import About from "./components/pages/about/About";
-import Contact from "./components/pages/contact/Contact";
+import Header from "./components/layouts/header/Header.jsx";
+import Main from "./components/layouts/main/Main.jsx";
+import Footer from "./components/layouts/footer/Footer.jsx";
+import Home from "./components/pages/home/Home.jsx";
+import Projects from "./components/pages/projects/Projects.jsx";
+import Project from "./components/pages/project/Project.jsx";
+import Exercises from "./components/pages/exercises/Exercises.jsx";
+import Papers from "./components/pages/papers/Papers.jsx";
+import About from "./components/pages/about/About.jsx";
+import Contact from "./components/pages/contact/Contact.jsx";
 
 import "./App.css";
 

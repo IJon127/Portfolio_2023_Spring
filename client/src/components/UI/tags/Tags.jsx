@@ -1,6 +1,6 @@
-import "./Tags.css";
-import TagBtn from "./TagBtn";
 import { useEffect } from "react";
+import "./Tags.css";
+import TagBtn from "./TagBtn.jsx";
 
 function Tags({ tags, activeTag, setActiveTag, setFilteredItems, allItems }) {
   useEffect(() => {

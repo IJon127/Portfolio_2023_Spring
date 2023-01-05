@@ -1,6 +1,6 @@
-import "./ExercisesItem.css";
-import PictureBox from "../../ui/PictureBox";
 import { motion } from "framer-motion";
+import "./ExercisesItem.css";
+import PictureBox from "../../ui/PictureBox.jsx";
 
 function ExercisesItem({ exercise }) {
   const picUri = `images/exercises/${exercise.thumbnail}`;

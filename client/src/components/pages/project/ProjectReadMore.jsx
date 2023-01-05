@@ -1,5 +1,5 @@
-import "./ProjectReadMore.css";
 import { motion } from "framer-motion";
+import "./ProjectReadMore.css";
 
 function ProjectReadMore({ readMore }) {
   return (

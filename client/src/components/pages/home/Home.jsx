@@ -1,5 +1,5 @@
 import "./Home.css";
-import PictureBox from "../../ui/PictureBox";
+import PictureBox from "../../ui/PictureBox.jsx";
 
 function Home() {
   return (

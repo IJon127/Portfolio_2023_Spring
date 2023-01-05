@@ -1,6 +1,6 @@
-import "./About.css";
-import AboutItem from "./AboutItem";
 import { useState, useEffect } from "react";
+import "./About.css";
+import AboutItem from "./AboutItem.jsx";
 
 function About() {
   const [allExperiences, setAllExperiences] = useState([]);

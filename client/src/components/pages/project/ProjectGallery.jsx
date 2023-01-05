@@ -1,7 +1,7 @@
 import { useState } from "react";
 import "./ProjectGallery.css";
-import PictureBox from "../../ui/PictureBox";
-import ProjectLightBox from "./ProjectLightBox";
+import PictureBox from "../../ui/PictureBox.jsx";
+import ProjectLightBox from "./ProjectLightBox.jsx";
 
 function ProjectGallery({ project, gallery }) {
   const [lightBoxOpened, setLightBoxOpened] = useState(false);

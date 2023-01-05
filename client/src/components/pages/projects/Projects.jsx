@@ -1,8 +1,8 @@
-import "./Projects.css";
-import Tags from "../../ui/tags/Tags";
-import ProjectsItem from "./ProjectsItem";
 import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
+import "./Projects.css";
+import Tags from "../../ui/tags/Tags.jsx";
+import ProjectsItem from "./ProjectsItem.jsx";
 
 function Projects() {
   const [activeTag, setActiveTag] = useState("Show All");

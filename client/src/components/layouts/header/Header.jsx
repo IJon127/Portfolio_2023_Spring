@@ -1,11 +1,10 @@
 import { useState } from "react";
 
 import "./Header.css";
-
-import Main from "../main/Main";
-import Navbar from "./Navbar";
-import NavBurger from "./NavBurger";
-import NavSmallScreen from "./NavSmallScreen";
+import Main from "../main/Main.jsx";
+import Navbar from "./Navbar.jsx";
+import NavBurger from "./NavBurger.jsx";
+import NavSmallScreen from "./NavSmallScreen.jsx";
 
 function Header() {
   const [navSmallScreenOpen, setNavSmallScreenOpen] = useState(false);
