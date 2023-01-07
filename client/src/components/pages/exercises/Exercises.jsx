@@ -1,8 +1,10 @@
 import { useState, useEffect } from "react";
+import PulseLoader from "react-spinners/PulseLoader";
 import "./Exercises.css";
 import ExercisesList from "./ExercisesList.jsx";
 
 function Exercises() {
+  const [loading, setLoading] = useState(true);
   const [categories, setCategories] = useState([]);
   const [allExercises, setAllExercises] = useState([]);
 
@@ -16,6 +18,7 @@ function Exercises() {
         setCategories(categoriesData);
         exercisesData.sort(sortByDate);
         setAllExercises(exercisesData);
+        setLoading(false);
       });
   };
 
@@ -24,16 +27,28 @@ function Exercises() {
   }, []);
 
   return (
-    <div className="exercises">
-      {categories.map((category) => (
-        <ExercisesList
-          key={category.name}
-          category={category}
-          allExercises={allExercises.filter(
-            (item) => item.category === category.name
-          )}
+    <div>
+      {loading && (
+        <PulseLoader
+          loading={loading}
+          size={20}
+          aria-label="Loading Spinner"
+          data-testid="loader"
         />
-      ))}
+      )}
+      {!loading && (
+        <div className="exercises">
+          {categories.map((category) => (
+            <ExercisesList
+              key={category.name}
+              category={category}
+              allExercises={allExercises.filter(
+                (item) => item.category === category.name
+              )}
+            />
+          ))}
+        </div>
+      )}
     </div>
   );
 }

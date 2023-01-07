@@ -5,7 +5,6 @@ import "./ContactForm.css";
 
 function ContactForm({
   submitActive,
-  emailSent,
   setClickedSend,
   setEmailSent,
   setValidName,
@@ -18,10 +17,10 @@ function ContactForm({
     e.preventDefault();
     emailjs
       .sendForm(
-        "YOUR_SERVICE_ID",
-        "YOUR_TEMPLATE_ID",
+        process.env.REACT_APP_EMAIL_SERVICE_ID,
+        process.env.REACT_APP_EMAIL_TEMPLATE_ID,
         form.current,
-        "YOUR_PUBLIC_KEY"
+        process.env.REACT_APP_EMAIL_PUBLIC_KEY
       )
       .then(
         (result) => {

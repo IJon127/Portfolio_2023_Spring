@@ -23,7 +23,6 @@ function Contact() {
     <div>
       <ContactForm
         submitActive={submitActive}
-        emailSent={emailSent}
         setClickedSend={setClickedSend}
         setEmailSent={setEmailSent}
         setValidName={setValidName}

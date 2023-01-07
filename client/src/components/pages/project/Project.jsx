@@ -1,5 +1,6 @@
 import { useParams } from "react-router-dom";
 import { useState, useEffect } from "react";
+import PulseLoader from "react-spinners/PulseLoader";
 
 import "./Project.css";
 import PictureBox from "../../ui/PictureBox.jsx";
@@ -10,52 +11,64 @@ function Project() {
   const params = useParams();
   const projectName = params.projectName;
   const [project, setProject] = useState({});
-  const [isLoading, setIsLoading] = useState(true);
+  const [loading, setLoading] = useState(true);
 
   useEffect(() => {
     fetch(`api/projects/${projectName}`)
       .then((res) => res.json())
       .then((resData) => {
         setProject(resData.data.project);
-        setIsLoading(false);
+        setLoading(false);
       })
       .catch((err) => console.log(err.message));
   }, [projectName]);
 
-  if (isLoading) {
-    return;
-  }
+  // if (loading) {
+  //   return;
+  // }
 
   return (
-    <div className="project">
-      {project.videoURL && (
-        <iframe
-          className="project__video"
-          title={project.name}
-          src={project.videoURL}
-          frameBorder="0"
-        ></iframe>
-      )}
-      {!project.videoURL && (
-        <PictureBox
-          className="project__heroImg"
-          aspectRatio="16/9"
-          img={`/images/projects/${project.name}/${project.heroImage}`}
-          alt={project.name}
+    <div>
+      {loading && (
+        <PulseLoader
+          loading={loading}
+          size={20}
+          aria-label="Loading Spinner"
+          data-testid="loader"
         />
       )}
-      <ProjectContent project={project} />
-      {project.supportImages &&
-        project.supportImages.map((pic) => (
-          <img
-            key={pic}
-            className="project__supportImg"
-            src={`/images/projects/${projectName}/${pic}`}
-            alt={projectName}
-          />
-        ))}
-      {project.gallery && (
-        <ProjectGallery project={project.name} gallery={project.gallery} />
+      {!loading && (
+        <div className="project">
+          {project.videoURL && (
+            <iframe
+              className="project__video"
+              title={project.name}
+              src={project.videoURL}
+              frameBorder="0"
+            ></iframe>
+          )}
+          {!project.videoURL && (
+            <PictureBox
+              className="project__heroImg"
+              aspectRatio="16/9"
+              img={`/images/projects/${project.name}/${project.heroImage}`}
+              alt={project.name}
+            />
+          )}
+          <ProjectContent project={project} />
+          {project.supportImages &&
+            project.supportImages.map((pic) => (
+              <img
+                key={pic}
+                className="project__supportImg"
+                src={`/images/projects/${projectName}/${pic}`}
+                alt={projectName}
+              />
+            ))}
+          {project.gallery && (
+            <ProjectGallery project={project.name} gallery={project.gallery} />
+          )}
+        </div>
       )}
     </div>
   );
