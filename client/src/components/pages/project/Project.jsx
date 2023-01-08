@@ -14,7 +14,7 @@ function Project() {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    fetch(`api/projects/${projectName}`)
+    fetch(`http://localhost:5000/api/projects/${projectName}`)
       .then((res) => res.json())
       .then((resData) => {
         setProject(resData.data.project);
@@ -22,10 +22,6 @@ function Project() {
       })
       .catch((err) => console.log(err.message));
   }, [projectName]);
-
-  // if (loading) {
-  //   return;
-  // }
 
   return (
     <div>

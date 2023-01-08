@@ -9,7 +9,7 @@ function About() {
   const [allEducation, setAllEducation] = useState([]);
 
   const fetchAbout = async () => {
-    fetch("api/about")
+    fetch("http://localhost:5000/api/about")
       .then((res) => res.json())
       .then((resData) => {
         setAllExperiences(resData.data.about.experiences);

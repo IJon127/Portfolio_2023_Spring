@@ -1,5 +1,7 @@
 const fs = require("fs");
 const express = require("express");
+const cors = require("cors");
+const path = require("path");
 
 const projectsRoutes = require(`${__dirname}/routes/projects`);
 const exercisesRoutes = require(`${__dirname}/routes/exercises`);
@@ -17,19 +19,31 @@ app.use((req, res, next) => {
   next();
 });
 
-// 3) ROUTE HANDLERS =====================================
+const corsOptions = {
+  origin: "http://localhost:3000",
+  optionsSuccessStatus: 200,
+};
+app.use(cors(corsOptions));
 
-function getRoot(req, res) {
-  res.status(200).send("<h1>Home page! from NODE.js</h1>");
+// 3) ROUTE HANDLERS =====================================
+const root = path.join(__dirname, "build");
+app.use(express.static(root));
+
+function getApiRoot(req, res) {
+  res.status(200).send("<p>Api root from NODE.js</>");
 }
 
 // 4) ROUTES =============================================
-app.get("/api/", getRoot);
+app.get("/api/", getApiRoot);
 app.use("/api/projects", projectsRoutes);
 app.use("/api/exercises", exercisesRoutes);
 app.use("/api/papers", papersRoutes);
 app.use("/api/about", aboutRoutes);
 app.use("/api/contact", contactRoutes);
+
+app.get("*", (req, res) => {
+  res.sendFile(path.join(__dirname, "build/index.html"));
+});
 
 // 5) START SERVER ========================================
 const PORT = 5000;

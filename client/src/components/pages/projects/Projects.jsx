@@ -13,7 +13,7 @@ function Projects() {
   const [tags, setTags] = useState([]);
 
   const fetchProjects = async () => {
-    const res = await fetch("api/projects");
+    const res = await fetch("http://localhost:5000/api/projects");
     const dataIn = await res.json();
     setAllProjects(dataIn.data.projects.data);
     setFilteredProjects(dataIn.data.projects.data);
