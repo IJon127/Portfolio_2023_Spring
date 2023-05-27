@@ -2,7 +2,6 @@ import { useState, useEffect } from "react";
 import PulseLoader from "react-spinners/PulseLoader";
 import "./Home.css";
 import HomeSlide from "./HomeSlide";
-// import PictureBox from "../../ui/PictureBox.jsx";
 
 function Home() {
   const [loading, setLoading] = useState(true);
@@ -10,13 +9,20 @@ function Home() {
   const [allSlides, setAllSlides] = useState([]);
 
   const fetchHome = async () => {
-    fetch("http://localhost:5000/api/home")
-      .then((res) => res.json())
-      .then((resData) => {
-        setAllIntros(resData.data.home.intro);
-        setAllSlides(resData.data.home.slides);
-        setLoading(false);
-      });
+    const res = await fetch("http://localhost:5000/api/home");
+    const dataIn = await res.json();
+    setAllIntros(dataIn.data.home.intro);
+    setAllSlides(dataIn.data.home.slides);
+    setLoading(false);
+    setLoading(false);
+
+    // fetch("http://localhost:5000/api/home")
+    //   .then((res) => res.json())
+    //   .then((resData) => {
+    //     setAllIntros(resData.data.home.intro);
+    //     setAllSlides(resData.data.home.slides);
+    //     setLoading(false);
+    //   });
   };
 
   useEffect(() => {
@@ -46,12 +52,6 @@ function Home() {
         </div>
       </div>
       <HomeSlide images={allSlides} interval={5000} />
-      {/* <PictureBox
-        className="home__img"
-        aspectRatio=""
-        img={"images/projects/tree_shadow_lamp/01.jpg"}
-        alt="home image"
-      /> */}
     </div>
   );
 }
