@@ -1,24 +1,57 @@
+import { useState, useEffect } from "react";
+import PulseLoader from "react-spinners/PulseLoader";
 import "./Home.css";
-import PictureBox from "../../ui/PictureBox.jsx";
+import HomeSlide from "./HomeSlide";
+// import PictureBox from "../../ui/PictureBox.jsx";
 
 function Home() {
+  const [loading, setLoading] = useState(true);
+  const [allIntros, setAllIntros] = useState([]);
+  const [allSlides, setAllSlides] = useState([]);
+
+  const fetchHome = async () => {
+    fetch("http://localhost:5000/api/home")
+      .then((res) => res.json())
+      .then((resData) => {
+        setAllIntros(resData.data.home.intro);
+        setAllSlides(resData.data.home.slides);
+        setLoading(false);
+      });
+  };
+
+  useEffect(() => {
+    fetchHome();
+  }, []);
+
   return (
     <div className="home">
       <div className="home__text">
         <h2 className="title">I-Jon Hsieh</h2>
-        <p>
-          I am a New York based creative technologist and architect from Taiwan.
-          My main focus is combining daily observation and natural phenomena
-          into interactable art pieces, including interactive installations,
-          generative art, games, and websites.
-        </p>
+        <div>
+          {true && (
+            <PulseLoader
+              loading={loading}
+              size={20}
+              aria-label="Loading Spinner"
+              data-testid="loader"
+            />
+          )}
+          {!loading && (
+            <div>
+              {allIntros.map((intro) => (
+                <p>{intro}</p>
+              ))}
+            </div>
+          )}
+        </div>
       </div>
-      <PictureBox
+      <HomeSlide images={allSlides} interval={5000} />
+      {/* <PictureBox
         className="home__img"
         aspectRatio=""
         img={"images/projects/tree_shadow_lamp/01.jpg"}
         alt="home image"
-      />
+      /> */}
     </div>
   );
 }

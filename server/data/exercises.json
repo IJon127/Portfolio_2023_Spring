@@ -350,6 +350,30 @@
       "tags": ["openFrameworks"],
       "thumbnail": "20221011.png",
       "link": "https://github.com/IJon127/Seeing_Machines/tree/main/SM02-IjonHsieh"
+    },
+    {
+      "id": 43,
+      "date": "20230131",
+      "category": "creative coding",
+      "tags": ["p5.js"],
+      "thumbnail": "20230131.png",
+      "link": "https://openprocessing.org/sketch/1820346"
+    },
+    {
+      "id": 44,
+      "date": "20230201",
+      "category": "creative coding",
+      "tags": ["p5.js"],
+      "thumbnail": "20230201.png",
+      "link": "https://openprocessing.org/sketch/1820646"
+    },
+    {
+      "id": 45,
+      "date": "20230218",
+      "category": "creative coding",
+      "tags": ["p5.js"],
+      "thumbnail": "20230218.png",
+      "link": "https://openprocessing.org/sketch/1840739"
     }
   ]
 }

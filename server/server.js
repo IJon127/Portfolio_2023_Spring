@@ -3,6 +3,7 @@ const express = require("express");
 const cors = require("cors");
 const path = require("path");
 
+const homeRoutes = require(`${__dirname}/routes/home`);
 const projectsRoutes = require(`${__dirname}/routes/projects`);
 const exercisesRoutes = require(`${__dirname}/routes/exercises`);
 const papersRoutes = require(`${__dirname}/routes/papers`);
@@ -35,6 +36,7 @@ function getApiRoot(req, res) {
 
 // 4) ROUTES =============================================
 app.get("/api/", getApiRoot);
+app.use("/api/home", homeRoutes);
 app.use("/api/projects", projectsRoutes);
 app.use("/api/exercises", exercisesRoutes);
 app.use("/api/papers", papersRoutes);

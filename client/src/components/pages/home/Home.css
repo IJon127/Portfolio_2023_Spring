@@ -9,13 +9,38 @@
 
 .home__text p {
   font-weight: 300;
+  margin-bottom: 10px;
 }
 
-.home__img {
+.home__slide {
   flex: 5;
+  position: relative;
+  aspect-ratio: 5 / 3;
+  overflow: hidden;
 }
 @media only screen and (max-width: 700px) {
   .home {
     flex-direction: column-reverse;
   }
+}
+
+.home__img {
+  width: 100%;
+  height: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.home__img-current {
+  transition: opacity 1s ease-out;
+  z-index: 1;
+}
+
+.home__img-current.fade-in {
+  transition: none;
+  opacity: 1;
+}
+.home__img-current.fade-out {
+  opacity: 0;
 }

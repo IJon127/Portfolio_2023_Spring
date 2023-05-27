@@ -1,16 +1,18 @@
 {
   "tags": [
     "Show All",
+    "Exhibition",
     "Installation",
     "Projection",
-    "Game Design",
+    "Game",
     "Product Design",
+    "Light",
     "Architecture"
   ],
   "data": [
     {
       "name": "all_colors_are_in_the_lights",
-      "thumbnail": "11.jpg",
+      "thumbnail": "10.jpg",
       "title": "All Colors Are In The Lights",
       "subtitle": "Extracting and Overlaying Urban Images for Interactive Spatiality",
       "types": ["Professional", "Group"],
@@ -19,7 +21,7 @@
       "time": "Fall 2019",
       "location": "Taichung City, Taiwan",
       "venue": "National Taichung Theater: IMAGE Theater",
-      "tags": ["Installation", "Projection"],
+      "tags": ["Exhibition", "Projection"],
       "description": [
         "Urban images have been prevailing and even ubiquitous these days. We see representations of cities in digital maps, movies or games, and we often participate in creating urban imageries by posting traveling logs in social media, uploading panorama shots or creating computer game MUDs based on real life locations. However, in terms of actual interaction instead of visual or virtual participation, it is much more difficult to create public engagement in any built urban environment. The more designers and architects put effort into applying complicated algorithms and mechanisms to interactive items, the more it shows that the majority of our surroundings, by its default status, do not interact with people at all.",
         "All Colors Are In The Lights (ACAITL) is an installation that animates the environment via arrangements of images and projections. Without complicated sensing techniques or movable mechanisms, an intuitive light and shadow show with everyday street view images creates an instantly relatable urban experience to the audience. A playful and responsive engagement between an enclosed interior and an open urban spatial environment is presented in a way that invites maximum public participation, whether to interact with the imagery, the projections, or the interior space, individually as well as collectively."
@@ -37,7 +39,7 @@
           "title": null,
           "subtitle": "Documenting",
           "paragraphs": [
-            "In this phase, we photograph the city with a 360-degree video camera to get comprehensive panoramic shots while moving along boulevard. The images sampled from the video serves as the foundation to reconstruct the urban experience"
+            "In this phase, we photograph the city with a 360-degree video camera to get comprehensive panoramic shots while moving along boulevard. The images sampled from the video serves as the foundation to reconstruct the urban experience."
           ],
           "lists": null
         },
@@ -105,53 +107,39 @@
       "videoURL": "https://player.vimeo.com/video/785708899?h=21657481bc&badge=0&autopause=0&player_id=0&app_id=58479/embed"
     },
     {
-      "name": "tree_shadow_lamp",
+      "name": "voice_printer",
       "thumbnail": "01.jpg",
-      "title": "Tree Shadow Lamp",
-      "subtitle": "Meditation Roly-poly Lamp",
-      "types": ["Academic"],
-      "team": null,
+      "title": "Voice Printer",
+      "subtitle": "Look Up! Is It the Sky or the Water?",
+      "types": ["Academic", "Group"],
+      "team": ["Jinny Kang"],
       "company": null,
-      "time": "Spring 2022",
+      "time": "Winter 2022",
       "location": "New York, U.S.",
       "venue": null,
-      "tags": ["Installation", "Projection", "Product Design"],
+      "tags": ["Installation"],
       "description": [
-        "Tree Shadow Lamp is a roly-poly table lamp for meditation. It is inspired by the soothing nature of tree shadows. The lamp connects with a p5 sketch projected in the space. When people gently sway the lamp, the internal accelerometer will generate data for the p5 sketch to trigger the animation and sound.",
-        "There are three LED bulbs in the lamp. Each bulb connects to the Arduino 33 IoT build-in gyroscope’s X, Y, and Z values, respectively. The three shadow videos and the sound of leaves rustling in the P5 sketch are also linked to the gyroscope data; when the gyroscope detects axial motion, the opacity of the videos and the volume of sound increase. Likewise, while the movement stops, the opacity and volume decline."
+        "The Voice Printer is an interactive installation where user pitch is printed on a thermal printer. Based on the concept of receipts as proofs: i.e. proof of purchase, proof of gifts; Voice Printer aims to hold a record, a proof of the human voice. The installation reflects a sort of communal confessional, or a confession booth, where an encoding of your voice becomes an addition to the larger conglomerate that is the Voice Printer.",
+        "The Voice Printer uses the JS Meyda library’s chroma and energy data to detect pitch and power of sound projected into the microphone. Signals are then sent to Arduino to print out a grayscale of ASCII characters, ranging from the least dense, ‘ ‘ (space), to the most dense, ‘#’ to visualize pitch."
       ],
       "readMore": null,
       "heroImage": "01.jpg",
       "supportImages": null,
-      "gallery": ["01.jpg", "02.jpg"],
-      "videoURL": "https://player.vimeo.com/video/785711175?h=06fc946c4c&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
-    },
-    {
-      "name": "zooba_battle",
-      "thumbnail": "01.jpg",
-      "title": "Zooba Battle",
-      "subtitle": "Playful Communication for Serious Research",
-      "types": ["Academic", "Group"],
-      "team": ["Jinny Kang", "Qiongting Zhang", "Stephanie Chen"],
-      "company": null,
-      "time": "Spring 2022",
-      "location": "New York, U.S.",
-      "venue": null,
-      "tags": ["Installation", "Game Design"],
-      "description": [
-        "Zooba is a competitive and educational 2 player rhythm game that is based on studies and hypotheses of the link between vocal learning and vocal entrainment (dance) in various species.",
-        "You are given a selection of animals to choose from based on 6 categories: speed, vocal, power, auditory, beauty, and vision—with the prompt: “be the next dance champion”. Each animal will activate its own unique game pattern and all animals are ranked based on quantitative datasets from 0 to 5, with 5 being best, and 0 being worst.",
-        "The game includes 2 distinct stages within a song: Stage 1, both players are given the same rhythm game (beats) that are created to match the rhythm of the song perfectly. Stage 2, based on which animal a player chose, beats are presented based on how animals would dance to a rhythm. By playing the rhythm game as if being the animal, players can sense and experience how the selected animal perceives and reacts to rhythm and beats."
+      "gallery": [
+        "01.jpg",
+        "02.jpg",
+        "03.jpg",
+        "04.jpg",
+        "05.jpg",
+        "06.jpg",
+        "07.jpg",
+        "08.jpg"
       ],
-      "readMore": null,
-      "heroImage": "02.png",
-      "supportImages": null,
-      "gallery": ["02.png", "03.jpg", "04.jpg"],
-      "videoURL": "https://player.vimeo.com/video/785930738?h=95b311e0ef&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
+      "videoURL": "https://player.vimeo.com/video/830731581?h=951fb9980f"
     },
     {
       "name": "finger_spray",
-      "thumbnail": "01.jpg",
+      "thumbnail": "03.jpg",
       "title": "Finger Spray",
       "subtitle": "Digital Painting Tool for Art Therapy",
       "types": ["Academic"],
@@ -173,8 +161,182 @@
       "videoURL": "https://player.vimeo.com/video/785930066?h=350d0c8141&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
     },
     {
+      "name": "bun_in_the_oven",
+      "thumbnail": "08.png",
+      "title": "Bun in the Oven",
+      "subtitle": "The Dough of Life:  A Yeasty Metaphor for the Journey of Pregnancy",
+      "types": ["Academic"],
+      "team": null,
+      "company": null,
+      "time": "Spring 2023",
+      "location": "New York, U.S.",
+      "venue": null,
+      "tags": ["Installation", "Game"],
+      "description": [
+        "Bun in the Oven is a 10-15 minute interactive art project addressing the pressures and anxieties faced by women concerning fertility and pregnancy. Using a baking game as a metaphor for the various stages and challenges of pregnancy, participants engage in an accessible and thought-provoking experience that encourages reflection and conversation on the complex emotions surrounding fertility and childbearing.",
+        "The project is a personal exploration of the challenges and heartbreaks associated with pregnancy, drawing from the creator's experiences and those of loved ones. By sharing these intimate moments and stories, “Bun in the Oven” aims to create a supportive and empathetic space for those who have faced similar challenges, fostering a sense of connection and understanding."
+      ],
+      "readMore": [
+        {
+          "title": "Research",
+          "subtitle": null,
+          "paragraphs": [
+            "The project is informed by research exploring pregnancy milestones, the impact of age on pregnancy, and the emotional struggles faced by women during this phase of life. The pregnancy process typically lasts 38-40 weeks and is divided into three trimesters. Key milestones include heartbeat detection as early as week 6 and the fetus doubling in size by week 8. Screening tests, such as ultrasound and blood testing, can detect early signs of Down syndrome between weeks 10 and 14. Diagnostic tests like amniocentesis are conducted between weeks 15 and 20 to confirm any abnormalities. Gestational diabetes may develop after week 20, which can lead to high blood pressure, a larger baby, and potential complications like preeclampsia.",
+            "Age is a significant factor in pregnancy success. Women delivering their first baby after 35 are considered advanced maternal age or elderly primigravida. As women age, the quality of their eggs declines, and pregnancy risks increase. These risks include preeclampsia, gestational diabetes, premature birth, low birth weight, expecting twins, miscarriage, Down syndrome, and other genetic disorders, as well as the likelihood of cesarean section or stillbirth."
+          ],
+          "lists": null
+        },
+        {
+          "title": "Technical Details",
+          "subtitle": null,
+          "paragraphs": [
+            "The interactive installation is designed as a baking game, featuring a real toaster oven with the Pepper's ghost effect integrated inside. This, along with various game elements, guides participants through the process. The project is developed using Unity and an Arduino microcontroller, creating a comprehensive experience that reveals the metaphor behind the game. The visual theme combines the aesthetics of an operating room and an industrial kitchen, emphasizing the connection between the medical and baking aspects of the project."
+          ],
+          "lists": null
+        },
+        {
+          "title": "User Flow",
+          "subtitle": null,
+          "paragraphs": [
+            "In the interactive experience Bun in the Oven, participants are guided through various challenges and choices related to baking burger buns, which serve as a metaphor for pregnancy. The narrative parallels the stages of pregnancy and the struggles faced by women as they navigate fertility and childbearing.",
+            "Engaging with the experience, participants follow the recipe, making decisions that can sometimes be confusing, reflecting the uncertainty and complexities surrounding pregnancy. Throughout the experience, participants encounter challenges that mirror pregnancy-related concerns, such as the dough (baby) not rising (developing), taking unexpected shapes, or growing too large.",
+            "Participants must make choices on how to handle these situations, akin to the decisions expectant mothers face, such as trying again, continuing with the current attempt, or giving up. The mother character serves as a supportive guide, offering wisdom, humor, and life lessons that resonate with the pregnancy journey."
+          ],
+          "lists": null
+        }
+      ],
+      "heroImage": "01.png",
+      "supportImages": null,
+      "gallery": [
+        "01.png",
+        "02.jpg",
+        "03.png",
+        "04.jpg",
+        "05.jpg",
+        "06.jpg",
+        "07.jpg",
+        "08.png",
+        "09.png",
+        "10.png",
+        "11.jpg",
+        "12.jpg"
+      ],
+      "videoURL": "https://player.vimeo.com/video/828787255?h=c271681aca&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
+    },
+    {
+      "name": "tree_shadow_lamp",
+      "thumbnail": "01.jpg",
+      "title": "Tree Shadow Lamp",
+      "subtitle": "Meditation Roly-poly Lamp",
+      "types": ["Academic"],
+      "team": null,
+      "company": null,
+      "time": "Spring 2022",
+      "location": "New York, U.S.",
+      "venue": null,
+      "tags": ["Installation", "Projection", "Product Design", "Light"],
+      "description": [
+        "Tree Shadow Lamp is a roly-poly table lamp for meditation. It is inspired by the soothing nature of tree shadows. The lamp connects with a p5 sketch projected in the space. When people gently sway the lamp, the internal accelerometer will generate data for the p5 sketch to trigger the animation and sound.",
+        "There are three LED bulbs in the lamp. Each bulb connects to the Arduino 33 IoT build-in gyroscope’s X, Y, and Z values, respectively. The three shadow videos and the sound of leaves rustling in the P5 sketch are also linked to the gyroscope data; when the gyroscope detects axial motion, the opacity of the videos and the volume of sound increase. Likewise, while the movement stops, the opacity and volume decline."
+      ],
+      "readMore": null,
+      "heroImage": "01.jpg",
+      "supportImages": null,
+      "gallery": ["01.jpg", "02.jpg"],
+      "videoURL": "https://player.vimeo.com/video/785711175?h=06fc946c4c&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
+    },
+    {
+      "name": "zooba_battle",
+      "thumbnail": "01.jpg",
+      "title": "Zooba Battle",
+      "subtitle": "Playful Communication for Serious Research",
+      "types": ["Academic", "Group"],
+      "team": ["Jinny Kang", "Qiongting Zhang", "Stephanie Chen"],
+      "company": null,
+      "time": "Spring 2022",
+      "location": "New York, U.S.",
+      "venue": null,
+      "tags": ["Installation", "Game"],
+      "description": [
+        "Zooba Battle is a competitive and educational 2 player rhythm game that is based on studies and hypotheses of the link between vocal learning and vocal entrainment (dance) in various species.",
+        "You are given a selection of animals to choose from based on 6 categories: speed, vocal, power, auditory, beauty, and vision—with the prompt: “be the next dance champion”. Each animal will activate its own unique game pattern and all animals are ranked based on quantitative datasets from 0 to 5, with 5 being best, and 0 being worst.",
+        "The game includes 2 distinct stages within a song: Stage 1, both players are given the same rhythm game (beats) that are created to match the rhythm of the song perfectly. Stage 2, based on which animal a player chose, beats are presented based on how animals would dance to a rhythm. By playing the rhythm game as if being the animal, players can sense and experience how the selected animal perceives and reacts to rhythm and beats."
+      ],
+      "readMore": null,
+      "heroImage": "02.png",
+      "supportImages": null,
+      "gallery": ["02.png", "03.jpg", "04.jpg"],
+      "videoURL": "https://player.vimeo.com/video/785930738?h=95b311e0ef&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
+    },
+    {
+      "name": "handheld_fireplace",
+      "thumbnail": "01.jpg",
+      "title": "Handheld Fireplace",
+      "subtitle": "Fireside Glow: Portable Table Lamp Evoking Warmth and Comfort",
+      "types": ["Academic"],
+      "team": null,
+      "company": null,
+      "time": "Spring 2023",
+      "location": "New York, U.S.",
+      "venue": null,
+      "tags": ["Product Design", "Light"],
+      "description": [
+        "Handheld Fireplace is a table lamp inspired by the comforting memories of my childhood, specifically, the charming warmth of a charcoal fire during winter. I remember my parents placing a charcoal stove in our home, and I was particularly drawn to the subtle, warm red light that glowed beneath the black charcoal.",
+        "I chose wood and epoxy resin as the main materials for the Handheld Fireplace. Tucked away inside the wooden shade, seven RGB LEDs work under the control of an Arduino microcontroller. Their purpose is to mimic the gentle, unpredictable flicker of candlelight, bringing an authentic and mesmerizing element to the lamp."
+      ],
+      "readMore": null,
+      "heroImage": "01.jpg",
+      "supportImages": null,
+      "gallery": ["01.jpg", "02.jpg", "03.jpg", "04.jpg", "05.jpg", "06.jpg"],
+      "videoURL": "https://player.vimeo.com/video/829584697?h=7b5baece7a&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
+    },
+    {
+      "name": "salt_deconstructing_stool",
+      "thumbnail": "01.jpg",
+      "title": "Salt-deconstructing Stool",
+      "subtitle": "Frozen Reflections: Illuminating Winter Deicing Issues through Outdoor Lighting Furniture.",
+      "types": ["Academic"],
+      "team": ["Yan Shao"],
+      "company": null,
+      "time": "Spring 2023",
+      "location": "New York, U.S.",
+      "venue": null,
+      "tags": ["Product Design", "Light"],
+      "description": [
+        "New York City, a bustling metropolis nestled in the northern region of the United States, is known for its chilly winters and frequent snowfall. When the snow covers the city, snow-melt salt is indispensable for winter life and keeps the streets and sidewalks available. However, the amount of salt used for deicing roads and highways is often overused, which causes damage to roads and other infrastructure that need to be repaired annually. Additionally, the massive amount of salt often infiltrates the surrounding soil and water systems, causing severe environmental issues and compromising the natural resources in the city.",
+        "The idea comes from the need to reduce the overuse of snow-melt salt in New York City during the winter months or use alternative organic salt. The project is a concrete stool with a light underneath that illuminates through road salt. The stool is made of 50 lbs of high-strength concrete mix and plywood for the mold. The road salt is filled with the fissures of concrete. The light design functions to illuminate the surrounding of the stool, and the refraction from salt will create a unique and visually appealing effect. This stool will serve as a reflection of the exaggerated usage of road salt during the winter months and the need to be mindful of environmental impact."
+      ],
+      "readMore": null,
+      "heroImage": "02.jpg",
+      "supportImages": null,
+      "gallery": ["01.jpg", "03.jpg", "04.jpg", "05.jpg", "06.jpg"],
+      "videoURL": null
+    },
+    {
+      "name": "knit_night_knight_lamp",
+      "thumbnail": "03.jpg",
+      "title": "Knit, Night, Knight Lamp",
+      "subtitle": "An Eye-Safeguarding Bedside Companion with Philips Hue Integration",
+      "types": ["Academic"],
+      "team": ["Shuang Cai"],
+      "company": null,
+      "time": "Spring 2023",
+      "location": "New York, U.S.",
+      "venue": null,
+      "tags": ["Product Design", "Light"],
+      "description": [
+        "Knit, Night, Knight Lamp is a meticulously crafted bedside lamp that offers more than just a gentle and soothing glow—it also prioritizes the health of the user's eyes. Included with the lamp is a specially designed phone case that senses whether the phone screen is active. When it detects that the phone is in use, a subtle signal is wirelessly transmitted via the Philips Hue system to the lamp, prompting it to gracefully illuminate the space with a soft and warm light.",
+        "One of the standout features of the Knit, Night, Knight Lamp is its distinctive lamp shade, expertly crafted from soft and cozy knit wool. This unique material not only adds a touch of warmth and elegance to any bedroom but also contributes to a soft diffusion of light, creating a gentle and soothing atmosphere that is easy on the eyes. The interplay between the knit wool and the illumination emitted by the lamp produces a visually captivating effect, enhancing the overall aesthetics of the space."
+      ],
+      "readMore": null,
+      "heroImage": "03.jpg",
+      "supportImages": null,
+      "gallery": ["01.jpg", "02.jpg", "03.jpg", "04.jpg"],
+      "videoURL": "https://player.vimeo.com/video/829279467?h=e27b8faa39&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
+    },
+    {
       "name": "doggolinko",
-      "thumbnail": "01.png",
+      "thumbnail": "03.png",
       "title": "Doggolinko",
       "subtitle": "Connect to Your Pet from Anywhere",
       "types": ["Academic"],
@@ -195,7 +357,7 @@
     },
     {
       "name": "ibrijomeesean_ibrary",
-      "thumbnail": "01.png",
+      "thumbnail": "02.png",
       "title": "Ibrijomeesean Library",
       "subtitle": "Snakes and Ladders Game Modification",
       "types": ["Academic", "Group"],
@@ -204,7 +366,7 @@
       "time": "Fall 2021",
       "location": "New York, U.S.",
       "venue": null,
-      "tags": ["Game Design", "Product Design"],
+      "tags": ["Game", "Product Design"],
       "description": [
         "Ibrijomeesean Library is a multiplayer competitive board game modified from the classic counting game, snakes and ladders. Players play roles as ambitious students in a race against their classmates to finish all of their reading assignments. The first student to check out all three of their research subjects and research them to completion wins!Each student must navigate the library and collect books for their three research subjects. Roll the dice to determine how you move or read!"
       ],
