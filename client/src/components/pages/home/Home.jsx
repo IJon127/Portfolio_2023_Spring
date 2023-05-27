@@ -9,20 +9,13 @@ function Home() {
   const [allSlides, setAllSlides] = useState([]);
 
   const fetchHome = async () => {
-    const res = await fetch("http://localhost:5000/api/home");
-    const dataIn = await res.json();
-    setAllIntros(dataIn.data.home.intro);
-    setAllSlides(dataIn.data.home.slides);
-    setLoading(false);
-    setLoading(false);
-
-    // fetch("http://localhost:5000/api/home")
-    //   .then((res) => res.json())
-    //   .then((resData) => {
-    //     setAllIntros(resData.data.home.intro);
-    //     setAllSlides(resData.data.home.slides);
-    //     setLoading(false);
-    //   });
+    fetch("http://localhost:5000/api/home")
+      .then((res) => res.json())
+      .then((resData) => {
+        setAllIntros(resData.data.home.intro);
+        setAllSlides(resData.data.home.slides);
+        setLoading(false);
+      });
   };
 
   useEffect(() => {
