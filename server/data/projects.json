@@ -5,8 +5,8 @@
     "Installation",
     "Projection",
     "Game",
+    "UX/UI",
     "Product Design",
-    "Light",
     "Architecture"
   ],
   "data": [
@@ -69,6 +69,7 @@
         }
       ],
       "heroImage": "10.jpg",
+      "supportVideoURL": null,
       "supportImages": ["12.png"],
       "gallery": [
         "10.jpg",
@@ -102,6 +103,7 @@
       ],
       "readMore": null,
       "heroImage": "01.png",
+      "supportVideoURL": null,
       "supportImages": null,
       "gallery": ["02.png", "03.jpg", "04.jpg"],
       "videoURL": "https://player.vimeo.com/video/785708899?h=21657481bc&badge=0&autopause=0&player_id=0&app_id=58479/embed"
@@ -110,7 +112,7 @@
       "name": "voice_printer",
       "thumbnail": "01.jpg",
       "title": "Voice Printer",
-      "subtitle": "Look Up! Is It the Sky or the Water?",
+      "subtitle": "Speak, sing, hum into the Voice Printer, and catch the moment.",
       "types": ["Academic", "Group"],
       "team": ["Jinny Kang"],
       "company": null,
@@ -124,6 +126,7 @@
       ],
       "readMore": null,
       "heroImage": "01.jpg",
+      "supportVideoURL": null,
       "supportImages": null,
       "gallery": [
         "01.jpg",
@@ -136,29 +139,6 @@
         "08.jpg"
       ],
       "videoURL": "https://player.vimeo.com/video/830731581?h=951fb9980f"
-    },
-    {
-      "name": "finger_spray",
-      "thumbnail": "03.jpg",
-      "title": "Finger Spray",
-      "subtitle": "Digital Painting Tool for Art Therapy",
-      "types": ["Academic"],
-      "team": null,
-      "company": null,
-      "time": "Fall 2021",
-      "location": "New York, U.S.",
-      "venue": null,
-      "tags": ["Installation"],
-      "description": [
-        "Finger Spray is a painting tool based on an art therapy framework - Expressive Therapies Continuum (ETC). The ETC is a hierarchical, continuous model that classifies the interaction between humans and the creative medium by information processing. This project focuses on the Kinesthetics/Sensory and the Perceptual/ Affective levels of the ETC framework.",
-        "Participants will wear a special glove on their dominant hand to paint on the virtual canvas by clicking the thumb with the index finger. Inside the middle finger of the glove is a forcing sensor that controls the radius of the spray. The tighter the fist grasped, the smaller the spray range. A color palette and a color picker are in front of the canvas. People move the color picker to take the color for the spray.",
-        "Except for the canvas, an auto-generated report behind the scene will analyze the creative process by assessing the composition of the color, the proportion of the blank space on the canvas, the color choice by time, how long you have held tightly, and how tight, etc. Then, while participants finish their drawing and press the \"done\" button, The report will show on the screen."
-      ],
-      "readMore": null,
-      "heroImage": "01.jpg",
-      "supportImages": ["02.png"],
-      "gallery": ["01.jpg", "03.jpg", "04.jpg"],
-      "videoURL": "https://player.vimeo.com/video/785930066?h=350d0c8141&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
     },
     {
       "name": "bun_in_the_oven",
@@ -206,7 +186,8 @@
         }
       ],
       "heroImage": "01.png",
-      "supportImages": null,
+      "supportVideoURL": "https://player.vimeo.com/video/826412535?h=c23014a39b",
+      "supportImages": ["13.png"],
       "gallery": [
         "01.png",
         "02.jpg",
@@ -234,16 +215,39 @@
       "time": "Spring 2022",
       "location": "New York, U.S.",
       "venue": null,
-      "tags": ["Installation", "Projection", "Product Design", "Light"],
+      "tags": ["Installation", "Projection", "Product Design"],
       "description": [
         "Tree Shadow Lamp is a roly-poly table lamp for meditation. It is inspired by the soothing nature of tree shadows. The lamp connects with a p5 sketch projected in the space. When people gently sway the lamp, the internal accelerometer will generate data for the p5 sketch to trigger the animation and sound.",
         "There are three LED bulbs in the lamp. Each bulb connects to the Arduino 33 IoT build-in gyroscope’s X, Y, and Z values, respectively. The three shadow videos and the sound of leaves rustling in the P5 sketch are also linked to the gyroscope data; when the gyroscope detects axial motion, the opacity of the videos and the volume of sound increase. Likewise, while the movement stops, the opacity and volume decline."
       ],
       "readMore": null,
       "heroImage": "01.jpg",
+      "supportVideoURL": null,
       "supportImages": null,
       "gallery": ["01.jpg", "02.jpg"],
       "videoURL": "https://player.vimeo.com/video/785711175?h=06fc946c4c&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
+    },
+    {
+      "name": "hedonomic_yeshi",
+      "thumbnail": "01.png",
+      "title": "Hedonomic Yeshi",
+      "subtitle": "VR Night Market Game",
+      "types": ["Academic"],
+      "team": null,
+      "company": null,
+      "time": "Winter 2022",
+      "location": "New York, U.S.",
+      "venue": null,
+      "tags": ["UX/UI", "Game"],
+      "description": [
+        "Hedonomic Yeshi is an immersive VR game that draws inspiration from the vibrant Asian night market culture. Players are invited to explore and experience the lively nightlife of various locations around the world. The project adheres to the hedonomic VR design principles developed by Meta, focusing on creating a safe and joyful virtual environment for players to enjoy. By blending the excitement of night markets with the immersive capabilities of virtual reality, Hedonomic Yeshi offers a unique and engaging experience that transports players to the bustling and colorful atmosphere of these cultural hotspots."
+      ],
+      "readMore": null,
+      "heroImage": "01.png",
+      "supportVideoURL": "https://player.vimeo.com/video/838071093?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479",
+      "supportImages": null,
+      "gallery": null,
+      "videoURL": null
     },
     {
       "name": "zooba_battle",
@@ -264,9 +268,34 @@
       ],
       "readMore": null,
       "heroImage": "02.png",
+      "supportVideoURL": null,
       "supportImages": null,
       "gallery": ["02.png", "03.jpg", "04.jpg"],
       "videoURL": "https://player.vimeo.com/video/785930738?h=95b311e0ef&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
+    },
+    {
+      "name": "finger_spray",
+      "thumbnail": "03.jpg",
+      "title": "Finger Spray",
+      "subtitle": "Digital Painting Tool for Art Therapy",
+      "types": ["Academic"],
+      "team": null,
+      "company": null,
+      "time": "Fall 2021",
+      "location": "New York, U.S.",
+      "venue": null,
+      "tags": ["Installation"],
+      "description": [
+        "Finger Spray is a painting tool based on an art therapy framework - Expressive Therapies Continuum (ETC). The ETC is a hierarchical, continuous model that classifies the interaction between humans and the creative medium by information processing. This project focuses on the Kinesthetics/Sensory and the Perceptual/ Affective levels of the ETC framework.",
+        "Participants will wear a special glove on their dominant hand to paint on the virtual canvas by clicking the thumb with the index finger. Inside the middle finger of the glove is a forcing sensor that controls the radius of the spray. The tighter the fist grasped, the smaller the spray range. A color palette and a color picker are in front of the canvas. People move the color picker to take the color for the spray.",
+        "Except for the canvas, an auto-generated report behind the scene will analyze the creative process by assessing the composition of the color, the proportion of the blank space on the canvas, the color choice by time, how long you have held tightly, and how tight, etc. Then, while participants finish their drawing and press the \"done\" button, The report will show on the screen."
+      ],
+      "readMore": null,
+      "heroImage": "01.jpg",
+      "supportVideoURL": null,
+      "supportImages": ["02.png"],
+      "gallery": ["01.jpg", "03.jpg", "04.jpg"],
+      "videoURL": "https://player.vimeo.com/video/785930066?h=350d0c8141&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
     },
     {
       "name": "handheld_fireplace",
@@ -279,16 +308,51 @@
       "time": "Spring 2023",
       "location": "New York, U.S.",
       "venue": null,
-      "tags": ["Product Design", "Light"],
+      "tags": ["Product Design"],
       "description": [
         "Handheld Fireplace is a table lamp inspired by the comforting memories of my childhood, specifically, the charming warmth of a charcoal fire during winter. I remember my parents placing a charcoal stove in our home, and I was particularly drawn to the subtle, warm red light that glowed beneath the black charcoal.",
         "I chose wood and epoxy resin as the main materials for the Handheld Fireplace. Tucked away inside the wooden shade, seven RGB LEDs work under the control of an Arduino microcontroller. Their purpose is to mimic the gentle, unpredictable flicker of candlelight, bringing an authentic and mesmerizing element to the lamp."
       ],
       "readMore": null,
       "heroImage": "01.jpg",
+      "supportVideoURL": null,
       "supportImages": null,
       "gallery": ["01.jpg", "02.jpg", "03.jpg", "04.jpg", "05.jpg", "06.jpg"],
       "videoURL": "https://player.vimeo.com/video/829584697?h=7b5baece7a&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
+    },
+    {
+      "name": "invisible_worlds",
+      "thumbnail": "01.png",
+      "title": "Invisible Worlds",
+      "subtitle": "The Waiting Area of the Invisible Worlds Exhibition at AMNH",
+      "types": ["Professional", "Creative Technologist Intern"],
+      "team": null,
+      "company": "American Museum of Natural History",
+      "time": "Spring 2023",
+      "location": "New York, U.S.",
+      "venue": "The Gilder Center AMNH",
+      "tags": ["Exhibition", "Projection"],
+      "description": [
+        "The Invisible Worlds project takes place within the esteemed American Museum of Natural History, located in bustling New York City. This visionary endeavor provides a platform for visitors to embark on an immersive journey. Before experiencing this extraordinary adventure, guests are invited to explore the profound themes that connect life on Earth across vast distances, diverse species, and billions of years.",
+        "In this captivating space, my role centers around crafting mesmerizing particle systems. These creations enhance the immersive projections and interactive kiosks, captivating and engaging visitors in thought-provoking experiences. I also contribute to the interactive medium through projection mapping implementation."
+      ],
+      "readMore": [
+        {
+          "title": null,
+          "subtitle": "Credits",
+          "paragraphs": null,
+          "lists": [
+            "American Museum of Natural History",
+            "AMNH Interactive Media Team",
+            "Hayeon Hwang"
+          ]
+        }
+      ],
+      "heroImage": "01.png",
+      "supportVideoURL": null,
+      "supportImages": null,
+      "gallery": ["02.png", "03.png", "04.png", "05.png"],
+      "videoURL": null
     },
     {
       "name": "salt_deconstructing_stool",
@@ -301,13 +365,14 @@
       "time": "Spring 2023",
       "location": "New York, U.S.",
       "venue": null,
-      "tags": ["Product Design", "Light"],
+      "tags": ["Product Design"],
       "description": [
         "New York City, a bustling metropolis nestled in the northern region of the United States, is known for its chilly winters and frequent snowfall. When the snow covers the city, snow-melt salt is indispensable for winter life and keeps the streets and sidewalks available. However, the amount of salt used for deicing roads and highways is often overused, which causes damage to roads and other infrastructure that need to be repaired annually. Additionally, the massive amount of salt often infiltrates the surrounding soil and water systems, causing severe environmental issues and compromising the natural resources in the city.",
         "The idea comes from the need to reduce the overuse of snow-melt salt in New York City during the winter months or use alternative organic salt. The project is a concrete stool with a light underneath that illuminates through road salt. The stool is made of 50 lbs of high-strength concrete mix and plywood for the mold. The road salt is filled with the fissures of concrete. The light design functions to illuminate the surrounding of the stool, and the refraction from salt will create a unique and visually appealing effect. This stool will serve as a reflection of the exaggerated usage of road salt during the winter months and the need to be mindful of environmental impact."
       ],
       "readMore": null,
       "heroImage": "02.jpg",
+      "supportVideoURL": null,
       "supportImages": null,
       "gallery": ["01.jpg", "03.jpg", "04.jpg", "05.jpg", "06.jpg"],
       "videoURL": null
@@ -323,16 +388,71 @@
       "time": "Spring 2023",
       "location": "New York, U.S.",
       "venue": null,
-      "tags": ["Product Design", "Light"],
+      "tags": ["Product Design"],
       "description": [
         "Knit, Night, Knight Lamp is a meticulously crafted bedside lamp that offers more than just a gentle and soothing glow—it also prioritizes the health of the user's eyes. Included with the lamp is a specially designed phone case that senses whether the phone screen is active. When it detects that the phone is in use, a subtle signal is wirelessly transmitted via the Philips Hue system to the lamp, prompting it to gracefully illuminate the space with a soft and warm light.",
         "One of the standout features of the Knit, Night, Knight Lamp is its distinctive lamp shade, expertly crafted from soft and cozy knit wool. This unique material not only adds a touch of warmth and elegance to any bedroom but also contributes to a soft diffusion of light, creating a gentle and soothing atmosphere that is easy on the eyes. The interplay between the knit wool and the illumination emitted by the lamp produces a visually captivating effect, enhancing the overall aesthetics of the space."
       ],
       "readMore": null,
       "heroImage": "03.jpg",
+      "supportVideoURL": null,
       "supportImages": null,
       "gallery": ["01.jpg", "02.jpg", "03.jpg", "04.jpg"],
       "videoURL": "https://player.vimeo.com/video/829279467?h=e27b8faa39&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
+    },
+    {
+      "name": "ononnature",
+      "thumbnail": "01.jpg",
+      "title": "OnOnNature",
+      "subtitle": "Famwood Flagship Store and Restaurant",
+      "types": ["Professional", "Project Manager"],
+      "team": null,
+      "company": "Studiobase Architects",
+      "time": "2014 - 2018",
+      "location": "Taichung City, Taiwan",
+      "venue": null,
+      "tags": ["Architecture"],
+      "description": [
+        "This project can be divided to two parts - main building and outdoor exhibit area. The main building combines three functions; a restaurant, guesthouse and office. Likewise, the outdoor area is organized to display \"Mobile Tiny House\", the main product of Famwood.",
+        "The site is located alongside a well-known tourist bicycle path in Taichung city. In order to attract rapidly passing tourists, the facade of the main building is extended by wooden structure. Meanwhile, the wooden columns constitute a fence of the site. The restaurant is the only part opened to the public. It has been lifted up to the second floor. Then customers in the restaurant can have great view of the bicycle path."
+      ],
+      "readMore": null,
+      "heroImage": "11.jpg",
+      "supportVideoURL": null,
+      "supportImages": ["10.jpg"],
+      "gallery": [
+        "02.jpg",
+        "03.jpg",
+        "04.jpg",
+        "05.jpg",
+        "06.jpg",
+        "07.jpg",
+        "08.jpg",
+        "09.jpg"
+      ],
+      "videoURL": null
+    },
+    {
+      "name": "famwood_website",
+      "thumbnail": "01.png",
+      "title": "Famwood Website",
+      "subtitle": "Official Website Re-design",
+      "types": ["Professional"],
+      "team": null,
+      "company": "Famwood",
+      "time": "Spring 2021",
+      "location": "Taichung City, Taiwan",
+      "venue": null,
+      "tags": ["UX/UI"],
+      "description": [
+        "This project involves the redesign of the official website for Famwood, a company that transitioned from being a furniture company to specializing in tiny house construction. Additionally, they operate a restaurant named OnOnNature. Prior to this redesign, Famwood had separate websites for each of its business ventures. The primary objective of this redesign is to consolidate these websites into a unified platform, streamlining the user experience and bringing together all aspects of the company under one digital presence. "
+      ],
+      "readMore": null,
+      "heroImage": "01.png",
+      "supportVideoURL": null,
+      "supportImages": ["02.png"],
+      "gallery": ["03.png", "04.png", "05.png", "06.png"],
+      "videoURL": null
     },
     {
       "name": "doggolinko",
@@ -347,10 +467,11 @@
       "venue": null,
       "tags": ["Product Design"],
       "description": [
-        "As an international student in New york, I missed my dogs in Taiwan so bad and wanted to build connections with them. DoggoLinko is a pet sensing picture frame. The installation will be PIR sensors put in front of my dogs’ beds in Taiwan and two picture frames with my dogs’ photos in my NY apartment. When one dog goes back to its bed, the picture frame will be opened(by servo, maybe)."
+        "As an international student in New york, I missed my dogs in Taiwan so bad and wanted to build connections with them. DoggoLinko is a pet sensing picture frame. The installation will be PIR sensors put in front of my dogs’ beds in Taiwan and two picture frames with my dogs’ photos in my NY apartment. When one dog goes back to its bed, the picture frame will be opened."
       ],
       "readMore": null,
       "heroImage": "01.png",
+      "supportVideoURL": null,
       "supportImages": null,
       "gallery": ["02.png", "03.png", "04.png"],
       "videoURL": null
@@ -399,39 +520,9 @@
         }
       ],
       "heroImage": "01.png",
+      "supportVideoURL": null,
       "supportImages": null,
       "gallery": ["02.png", "03.png", "04.png", "05.png", "06.png"],
-      "videoURL": null
-    },
-    {
-      "name": "ononnature",
-      "thumbnail": "01.jpg",
-      "title": "OnOnNature",
-      "subtitle": "Famwood Flagship Store and Restaurant",
-      "types": ["Professional", "Project Manager"],
-      "team": null,
-      "company": "Studiobase Architects",
-      "time": "2014 - 2018",
-      "location": "Taichung City, Taiwan",
-      "venue": null,
-      "tags": ["Architecture"],
-      "description": [
-        "This project can be divided to two parts - main building and outdoor exhibit area. The main building combines three functions; a restaurant, guesthouse and office. Likewise, the outdoor area is organized to display \"Mobile Tiny House\", the main product of Famwood.",
-        "The site is located alongside a well-known tourist bicycle path in Taichung city. In order to attract rapidly passing tourists, the facade of the main building is extended by wooden structure. Meanwhile, the wooden columns constitute a fence of the site. The restaurant is the only part opened to the public. It has been lifted up to the second floor. Then customers in the restaurant can have great view of the bicycle path."
-      ],
-      "readMore": null,
-      "heroImage": "11.jpg",
-      "supportImages": ["10.jpg"],
-      "gallery": [
-        "02.jpg",
-        "03.jpg",
-        "04.jpg",
-        "05.jpg",
-        "06.jpg",
-        "07.jpg",
-        "08.jpg",
-        "09.jpg"
-      ],
       "videoURL": null
     },
     {
@@ -453,6 +544,7 @@
       ],
       "readMore": null,
       "heroImage": "01.jpg",
+      "supportVideoURL": null,
       "supportImages": null,
       "gallery": ["02.jpg", "03.jpg"],
       "videoURL": null
@@ -496,6 +588,7 @@
         }
       ],
       "heroImage": "01.jpg",
+      "supportVideoURL": null,
       "supportImages": null,
       "gallery": [
         "02.jpg",

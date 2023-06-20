@@ -61,6 +61,14 @@ function Project() {
                 alt={projectName}
               />
             ))}
+          {project.supportVideoURL && (
+            <iframe
+              className="project__supportVideo"
+              title={project.name}
+              src={project.supportVideoURL}
+              frameBorder="0"
+            ></iframe>
+          )}
           {project.gallery && (
             <ProjectGallery project={project.name} gallery={project.gallery} />
           )}

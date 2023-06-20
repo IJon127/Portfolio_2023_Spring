@@ -63,7 +63,21 @@
       "school": "Tunghai University"
     }
   ],
-  "Award": [
+  "exhibitions": [
+    {
+      "title": "Absurdity: In Dada We Trust",
+      "type": "Group Exhibition",
+      "venue": "Women Made Gallery, Chicago, IL",
+      "time": "Jul-Aug/2023"
+    },
+    {
+      "title": "All Colors are in the Lights",
+      "type": "Collaborative Exhibition",
+      "venue": " National Taichung Theater, Taichung, Taiwan",
+      "time": "2019 Fall"
+    }
+  ],
+  "awards": [
     {
       "title": "Re School 2018 Architecture Competition",
       "ranking": "Second Place"
@@ -75,6 +89,28 @@
     {
       "title": "Graduate Architecture Award 2013",
       "ranking": "The top 20"
+    }
+  ],
+  "residencies": null,
+  "press": [
+    {
+      "title": "Bun in the Oven",
+      "publication": "ITP thesis archive 2023",
+      "time": "2023",
+      "link": "https://itp.nyu.edu/thesis2023/projects/?student-id=46"
+    },
+    {
+      "title": "All Colors are in the Lights",
+      "publication": "Media Architecture Biennale",
+      "time": "2019",
+      "link": "https://awards.mediaarchitecture.org/mab/project/303"
+    }
+  ],
+  "teachingWorkshop": [
+    {
+      "title": "Procedural 3D Modeling: Geometry Nodes in Blender",
+      "program": "NYU ITP Camp",
+      "time": "2023 Summer"
     }
   ]
 }

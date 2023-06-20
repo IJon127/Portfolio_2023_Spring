@@ -12,3 +12,10 @@
   object-fit: contain;
   margin-top: 50px;
 }
+
+.project__supportVideo {
+  width: 100%;
+  aspect-ratio: 16/9;
+  max-width: 900px;
+  margin-top: 50px;
+}

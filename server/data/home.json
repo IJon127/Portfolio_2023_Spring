@@ -2,8 +2,10 @@
   "intro": [
     "I am a New York based creative technologist and architect from Taiwan. My main focus is combining daily observation and natural phenomena into interactable art pieces, including interactive installations, generative art, games, and websites."
   ],
+  "introMore": null,
   "slides": [
     "images/projects/tree_shadow_lamp/01.jpg",
+    "images/projects/under_the_water/02.png",
     "images/projects/handheld_fireplace/01.jpg",
     "images/projects/salt_deconstructing_stool/01.jpg"
   ]
