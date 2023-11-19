@@ -9,7 +9,8 @@ function Home() {
   const [allSlides, setAllSlides] = useState([]);
 
   const fetchHome = async () => {
-    fetch("http://localhost:5000/api/home")
+    // fetch("http://localhost:5000/api/home")
+    fetch("/api/home")
       .then((res) => res.json())
       .then((resData) => {
         setAllIntros(resData.data.home.intro);

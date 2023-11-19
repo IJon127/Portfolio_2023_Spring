@@ -390,6 +390,14 @@
       "tags": ["Blender"],
       "thumbnail": "20230601.png",
       "link": "https://www.instagram.com/p/Cs-PuArOab8/"
+    },
+    {
+      "id": 48,
+      "date": "20230220",
+      "category": "creative coding",
+      "tags": ["p5.js"],
+      "thumbnail": "20230220.jpg",
+      "link": "https://openprocessing.org/sketch/2095751"
     }
   ]
 }

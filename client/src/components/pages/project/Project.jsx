@@ -14,7 +14,8 @@ function Project() {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    fetch(`http://localhost:5000/api/projects/${projectName}`)
+    // fetch(`http://localhost:5000/api/projects/${projectName}`)
+    fetch(`/api/projects/${projectName}`)
       .then((res) => res.json())
       .then((resData) => {
         setProject(resData.data.project);

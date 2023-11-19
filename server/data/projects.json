@@ -11,81 +11,6 @@
   ],
   "data": [
     {
-      "name": "all_colors_are_in_the_lights",
-      "thumbnail": "10.jpg",
-      "title": "All Colors Are In The Lights",
-      "subtitle": "Extracting and Overlaying Urban Images for Interactive Spatiality",
-      "types": ["Professional", "Group"],
-      "team": ["Tien Ling", "Ling Lee"],
-      "company": null,
-      "time": "Fall 2019",
-      "location": "Taichung City, Taiwan",
-      "venue": "National Taichung Theater: IMAGE Theater",
-      "tags": ["Exhibition", "Projection"],
-      "description": [
-        "Urban images have been prevailing and even ubiquitous these days. We see representations of cities in digital maps, movies or games, and we often participate in creating urban imageries by posting traveling logs in social media, uploading panorama shots or creating computer game MUDs based on real life locations. However, in terms of actual interaction instead of visual or virtual participation, it is much more difficult to create public engagement in any built urban environment. The more designers and architects put effort into applying complicated algorithms and mechanisms to interactive items, the more it shows that the majority of our surroundings, by its default status, do not interact with people at all.",
-        "All Colors Are In The Lights (ACAITL) is an installation that animates the environment via arrangements of images and projections. Without complicated sensing techniques or movable mechanisms, an intuitive light and shadow show with everyday street view images creates an instantly relatable urban experience to the audience. A playful and responsive engagement between an enclosed interior and an open urban spatial environment is presented in a way that invites maximum public participation, whether to interact with the imagery, the projections, or the interior space, individually as well as collectively."
-      ],
-      "readMore": [
-        {
-          "title": "(Color) Coding the Environment",
-          "subtitle": null,
-          "paragraphs": [
-            "In the seminal book “Image of the City”, Lynch argues that the understanding of cities are formed by our perceptions. From a cognitive psychological point of view, the “imaging” of cities is a form of cognitive mapping: Because of the limitation of cognitive capacity, our brains naturally filter secondary information or background noises to cope with overwhelming information. The imagery in ACAITL represents the selective mechanism in terms of perceiving and conceiving urban spatial information through a three- step procedure— “Documentation”, “Coding”, and “Projection”."
-          ],
-          "lists": null
-        },
-        {
-          "title": null,
-          "subtitle": "Documenting",
-          "paragraphs": [
-            "In this phase, we photograph the city with a 360-degree video camera to get comprehensive panoramic shots while moving along boulevard. The images sampled from the video serves as the foundation to reconstruct the urban experience."
-          ],
-          "lists": null
-        },
-        {
-          "title": null,
-          "subtitle": "Coding",
-          "paragraphs": [
-            "Photographic representations of the city are reproduced into a series of color-coded images. Environmental objects are categorized, grouped and layered before colorized in a four- color printing manner, except for that we are painting here with color lights, taking advantage of a RGB color model for its additive nature. A rather complicated coding pattern is established to carefully assign contrasting colors to different groups of visual elements, in order to create overlapping addition of lights. A car would be projected in red and yellow from one projector, as well as cyan and blue from another. If one is to move in front of the two projectors, the car would be seen as white first (no shadow), and then either red or blue (alternative shadows), depending on the relative locations of the viewer blocking the lights."
-          ],
-          "lists": null
-        },
-        {
-          "title": null,
-          "subtitle": "Projecting",
-          "paragraphs": [
-            "In the final presentation, multiple projectors are arranged to overlay the color-coded images together to reconstruct the original view of the city. We use the additive model to sum up the primary and secondary colors into white, creating light grey silhouettes that vaguely hints at an urban landscape underneath. This layered visuals await for involvement from participants. When one step in front of one of the projections, the shadow of the person, instead of appearing black for lack of light, unexpectedly reveals the highly contrasted shapes of saturated colors coming from the directions of other projectors. In a sense, this is a “decoding” process, highlighting some of the layers of urban information by blocking the light that “conceals” the colors. Every time someone interacts with the projections by intuitively playing with the shadows, the representation of the city also transforms. Each action, and the visual reaction, is unique."
-          ],
-          "lists": null
-        },
-        {
-          "title": "The Sound",
-          "subtitle": null,
-          "paragraphs": [
-            "ACAITL applies ambisonic technology to create an audio environment that also contributes to the immersive spatial experience. While the visual images work as stop-frame slideshow animation (each frame lasting 4 seconds), the audio is played back in real time, creating an instantly recognizable urban backbeat. It brings a dynamic sensation of spatiality and excitement, as if witnessing a head-on vehicle passing through from the front to the rear. Urban ambient sounds are recorded using an all-directional microphone, and then mixed with electronic beats and noises. Recognizable patterns and site-specific sounds are carefully mixed to juxtapose with the visuals of city landmarks. The final audio work is played through six channels to create a surrounding audio environment to enhance the movement of the visual as well as the flowingnsensation in the space."
-          ],
-          "lists": null
-        }
-      ],
-      "heroImage": "10.jpg",
-      "supportVideoURL": null,
-      "supportImages": ["12.png"],
-      "gallery": [
-        "10.jpg",
-        "01.jpg",
-        "02.jpg",
-        "03.jpg",
-        "04.jpg",
-        "05.jpg",
-        "06.jpg",
-        "07.jpg",
-        "08.jpg",
-        "09.jpg"
-      ],
-      "videoURL": "https://player.vimeo.com/video/490556457?h=e42d76f2da&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
-    },
-    {
       "name": "under_the_water",
       "thumbnail": "01.png",
       "title": "Under the Water",
@@ -205,6 +130,140 @@
       "videoURL": "https://player.vimeo.com/video/828787255?h=c271681aca&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
     },
     {
+      "name": "invisible_worlds",
+      "thumbnail": "01.png",
+      "title": "Invisible Worlds",
+      "subtitle": "The Waiting Area of the Invisible Worlds Exhibition at AMNH",
+      "types": ["Professional", "Creative Technologist Intern"],
+      "team": null,
+      "company": "American Museum of Natural History",
+      "time": "Spring 2023",
+      "location": "New York, U.S.",
+      "venue": "The Gilder Center AMNH",
+      "tags": ["Exhibition", "Projection"],
+      "description": [
+        "The Invisible Worlds project takes place within the esteemed American Museum of Natural History, located in bustling New York City. This visionary endeavor provides a platform for visitors to embark on an immersive journey. Before experiencing this extraordinary adventure, guests are invited to explore the profound themes that connect life on Earth across vast distances, diverse species, and billions of years.",
+        "In this captivating space, my role centers around crafting mesmerizing particle systems. These creations enhance the immersive projections and interactive kiosks, captivating and engaging visitors in thought-provoking experiences. I also contribute to the interactive medium through projection mapping implementation."
+      ],
+      "readMore": [
+        {
+          "title": "Colors",
+          "subtitle": null,
+          "paragraphs": [
+            "The pre-show gallery is divided into four distinctive sections – DNA, Ecosystem, Food Web, and Communications. These segments are thoughtfully curated, employing distinct color palettes to evoke specific emotions. For instance, the DNA section uses teals and purples, symbolizing genetic mysteries. Similarly, the ecosystem utilizes various shades of green to represent natural harmony."
+          ],
+          "lists": null,
+          "diagram": "06.svg",
+          "photo": null,
+          "video": null
+        },
+        {
+          "title": "Particle System",
+          "subtitle": null,
+          "paragraphs": [
+            "Upon entering, visitors are immersed in a captivating interplay of lights and colors, drawn to ribbon-shaped projection canvases within each section. These canvases utilize projection mapping technology, creating dynamic backdrops that bring visual narratives to life. Accompanying each canvas are interactive kiosks, offering touch-screen interfaces that facilitate deeper exploration."
+          ],
+          "lists": null,
+          "diagram": "07.jpg",
+          "photo": null,
+          "video": null
+        },
+        {
+          "title": "Credits",
+          "subtitle": null,
+          "paragraphs": null,
+          "lists": [
+            "American Museum of Natural History",
+            "AMNH Interactive Media Team",
+            "Hayeon Hwang"
+          ],
+          "diagram": null,
+          "photo": null,
+          "video": null
+        }
+      ],
+      "heroImage": "01.png",
+      "supportVideoURL": null,
+      "supportImages": ["07.jpg"],
+      "gallery": ["02.png", "03.png", "04.png", "05.png"],
+      "videoURL": null
+    },
+    {
+      "name": "all_colors_are_in_the_lights",
+      "thumbnail": "10.jpg",
+      "title": "All Colors Are In The Lights",
+      "subtitle": "Extracting and Overlaying Urban Images for Interactive Spatiality",
+      "types": ["Professional", "Group"],
+      "team": ["Tien Ling", "Ling Lee"],
+      "company": null,
+      "time": "Fall 2019",
+      "location": "Taichung City, Taiwan",
+      "venue": "National Taichung Theater: IMAGE Theater",
+      "tags": ["Exhibition", "Projection"],
+      "description": [
+        "Urban images have been prevailing and even ubiquitous these days. We see representations of cities in digital maps, movies or games, and we often participate in creating urban imageries by posting traveling logs in social media, uploading panorama shots or creating computer game MUDs based on real life locations. However, in terms of actual interaction instead of visual or virtual participation, it is much more difficult to create public engagement in any built urban environment. The more designers and architects put effort into applying complicated algorithms and mechanisms to interactive items, the more it shows that the majority of our surroundings, by its default status, do not interact with people at all.",
+        "All Colors Are In The Lights (ACAITL) is an installation that animates the environment via arrangements of images and projections. Without complicated sensing techniques or movable mechanisms, an intuitive light and shadow show with everyday street view images creates an instantly relatable urban experience to the audience. A playful and responsive engagement between an enclosed interior and an open urban spatial environment is presented in a way that invites maximum public participation, whether to interact with the imagery, the projections, or the interior space, individually as well as collectively."
+      ],
+      "readMore": [
+        {
+          "title": "(Color) Coding the Environment",
+          "subtitle": null,
+          "paragraphs": [
+            "In the seminal book “Image of the City”, Lynch argues that the understanding of cities are formed by our perceptions. From a cognitive psychological point of view, the “imaging” of cities is a form of cognitive mapping: Because of the limitation of cognitive capacity, our brains naturally filter secondary information or background noises to cope with overwhelming information. The imagery in ACAITL represents the selective mechanism in terms of perceiving and conceiving urban spatial information through a three- step procedure— “Documentation”, “Coding”, and “Projection”."
+          ],
+          "lists": null
+        },
+        {
+          "title": null,
+          "subtitle": "Documenting",
+          "paragraphs": [
+            "In this phase, we photograph the city with a 360-degree video camera to get comprehensive panoramic shots while moving along boulevard. The images sampled from the video serves as the foundation to reconstruct the urban experience."
+          ],
+          "lists": null
+        },
+        {
+          "title": null,
+          "subtitle": "Coding",
+          "paragraphs": [
+            "Photographic representations of the city are reproduced into a series of color-coded images. Environmental objects are categorized, grouped and layered before colorized in a four- color printing manner, except for that we are painting here with color lights, taking advantage of a RGB color model for its additive nature. A rather complicated coding pattern is established to carefully assign contrasting colors to different groups of visual elements, in order to create overlapping addition of lights. A car would be projected in red and yellow from one projector, as well as cyan and blue from another. If one is to move in front of the two projectors, the car would be seen as white first (no shadow), and then either red or blue (alternative shadows), depending on the relative locations of the viewer blocking the lights."
+          ],
+          "lists": null
+        },
+        {
+          "title": null,
+          "subtitle": "Projecting",
+          "paragraphs": [
+            "In the final presentation, multiple projectors are arranged to overlay the color-coded images together to reconstruct the original view of the city. We use the additive model to sum up the primary and secondary colors into white, creating light grey silhouettes that vaguely hints at an urban landscape underneath. This layered visuals await for involvement from participants. When one step in front of one of the projections, the shadow of the person, instead of appearing black for lack of light, unexpectedly reveals the highly contrasted shapes of saturated colors coming from the directions of other projectors. In a sense, this is a “decoding” process, highlighting some of the layers of urban information by blocking the light that “conceals” the colors. Every time someone interacts with the projections by intuitively playing with the shadows, the representation of the city also transforms. Each action, and the visual reaction, is unique."
+          ],
+          "lists": null
+        },
+        {
+          "title": "The Sound",
+          "subtitle": null,
+          "paragraphs": [
+            "ACAITL applies ambisonic technology to create an audio environment that also contributes to the immersive spatial experience. While the visual images work as stop-frame slideshow animation (each frame lasting 4 seconds), the audio is played back in real time, creating an instantly recognizable urban backbeat. It brings a dynamic sensation of spatiality and excitement, as if witnessing a head-on vehicle passing through from the front to the rear. Urban ambient sounds are recorded using an all-directional microphone, and then mixed with electronic beats and noises. Recognizable patterns and site-specific sounds are carefully mixed to juxtapose with the visuals of city landmarks. The final audio work is played through six channels to create a surrounding audio environment to enhance the movement of the visual as well as the flowingnsensation in the space."
+          ],
+          "lists": null
+        }
+      ],
+      "heroImage": "10.jpg",
+      "supportVideoURL": null,
+      "supportImages": ["12.png"],
+      "gallery": [
+        "10.jpg",
+        "01.jpg",
+        "02.jpg",
+        "03.jpg",
+        "04.jpg",
+        "05.jpg",
+        "06.jpg",
+        "07.jpg",
+        "08.jpg",
+        "09.jpg"
+      ],
+      "videoURL": "https://player.vimeo.com/video/490556457?h=e42d76f2da&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
+    },
+    {
       "name": "tree_shadow_lamp",
       "thumbnail": "01.jpg",
       "title": "Tree Shadow Lamp",
@@ -226,28 +285,6 @@
       "supportImages": null,
       "gallery": ["01.jpg", "02.jpg"],
       "videoURL": "https://player.vimeo.com/video/785711175?h=06fc946c4c&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
-    },
-    {
-      "name": "hedonomic_yeshi",
-      "thumbnail": "01.png",
-      "title": "Hedonomic Yeshi",
-      "subtitle": "VR Night Market Game",
-      "types": ["Academic"],
-      "team": null,
-      "company": null,
-      "time": "Winter 2022",
-      "location": "New York, U.S.",
-      "venue": null,
-      "tags": ["UX/UI", "Game"],
-      "description": [
-        "Hedonomic Yeshi is an immersive VR game that draws inspiration from the vibrant Asian night market culture. Players are invited to explore and experience the lively nightlife of various locations around the world. The project adheres to the hedonomic VR design principles developed by Meta, focusing on creating a safe and joyful virtual environment for players to enjoy. By blending the excitement of night markets with the immersive capabilities of virtual reality, Hedonomic Yeshi offers a unique and engaging experience that transports players to the bustling and colorful atmosphere of these cultural hotspots."
-      ],
-      "readMore": null,
-      "heroImage": "01.png",
-      "supportVideoURL": "https://player.vimeo.com/video/838071093?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479",
-      "supportImages": null,
-      "gallery": null,
-      "videoURL": null
     },
     {
       "name": "zooba_battle",
@@ -298,6 +335,198 @@
       "videoURL": "https://player.vimeo.com/video/785930066?h=350d0c8141&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
     },
     {
+      "name": "hedonomic_yeshi",
+      "thumbnail": "01.png",
+      "title": "Hedonomic Yeshi",
+      "subtitle": "VR Night Market Game",
+      "types": ["Academic"],
+      "team": null,
+      "company": null,
+      "time": "Winter 2022",
+      "location": "New York, U.S.",
+      "venue": null,
+      "tags": ["UX/UI", "Game"],
+      "description": [
+        "Hedonomic Yeshi is an immersive VR game that draws inspiration from the vibrant Asian night market culture. Players are invited to explore and experience the lively nightlife of various locations around the world. The project adheres to the hedonomic VR design principles developed by Meta, focusing on creating a safe and joyful virtual environment for players to enjoy. By blending the excitement of night markets with the immersive capabilities of virtual reality, Hedonomic Yeshi offers a unique and engaging experience that transports players to the bustling and colorful atmosphere of these cultural hotspots."
+      ],
+      "readMore": [
+        {
+          "title": "Hedonomic VR Design",
+          "subtitle": null,
+          "paragraphs": [
+            "This project embodies the Hedonomic VR design principles, crafted by the Meta Reality Lab. Rooted in the concept of hedonomics, a specialized branch of ergonomics, this approach is dedicated to elevating human-computer interactions by promoting delightful experiences. At the core of this design philosophy lies the Hedonic Pyramid, a five-stage framework (safety, functionality, usability, pleasure, and individuation) that sets the foundation for an extraordinary virtual reality journey."
+          ],
+          "lists": null,
+          "diagram": "02.svg",
+          "photo": null,
+          "video": null
+        },
+        {
+          "title": null,
+          "subtitle": "Safety",
+          "paragraphs": [
+            "The Hedonomic Yeshi project prioritizes user safety and comfort within the virtual realm. Virtual Reality can create an illusion of self-extinction, affecting how our brain perceives virtual threats as real threats. To establish a safe virtual space, several key measures are employed:"
+          ],
+          "lists": [
+            "Proxemics to Define Virtual Space",
+            "Establishing Behavior Expectations",
+            "User-defined Preferences",
+            "Clear Communication of Consent",
+            "Quick-action Remediation Tools"
+          ],
+          "diagram": null,
+          "photo": null,
+          "video": null
+        },
+        {
+          "title": null,
+          "subtitle": null,
+          "paragraphs": [
+            "Upon entering the Hedonomic Yeshi, players acknowledge the rules for a safe and respectful virtual environment. They can also adjust preferences and easily exit the game from the main menu, enhancing their sense of control and well-being."
+          ],
+          "lists": null,
+          "diagram": null,
+          "photo": "03.jpg",
+          "video": null
+        },
+        {
+          "title": null,
+          "subtitle": "Function",
+          "paragraphs": [
+            "The second stage, Function, focuses on seamlessly integrating all VR interactions and features to create an intuitive and responsive virtual environment. Empowering users to effortlessly navigate and engage with the digital world, the functional system allows them to achieve their desired goals, fostering a sense of trust in its stability, predictability, and safety.",
+            "In the VR world, achieving functionality means adhering to key principles:"
+          ],
+          "lists": [
+            "Adding Consistent Value",
+            "Informing Users of Behavioral Effects",
+            "Transparent Attention Requests",
+            "Full Personal Data Disclosure",
+            "Visibility into System Mechanisms"
+          ],
+          "diagram": null,
+          "photo": null,
+          "video": null
+        },
+        {
+          "title": null,
+          "subtitle": null,
+          "paragraphs": [
+            "To align with the project's focus on promoting Asian market culture, the interactions within the Hedonomic Yeshi game are designed to mimic real-world situations. Following real physics principles, all items and interactions are easy for players to understand and engage with, enhancing their sense of immersion and realism.",
+            "Moreover, the game offers users the convenience of tracking their time spent within the virtual realm through the menu. This feature allows players to be mindful of their engagement and enables them to manage their virtual experiences effectively."
+          ],
+          "lists": null,
+          "diagram": null,
+          "photo": "04.jpg",
+          "video": null
+        },
+        {
+          "title": null,
+          "subtitle": "Usabilty",
+          "paragraphs": [
+            "At the core of the Hedonic Pyramid lies the third stage, usability, which embraces empathetic and user-centric design. This pivotal stage is devoted to crafting an interface that is not only efficient but also mindful of users' needs, ensuring seamless interactions and an enjoyable journey within the virtual realm. The following key elements are incorporated to achieve a truly usable and delightful experience:"
+          ],
+          "lists": [
+            "Avoiding Unnatural Sensations",
+            "Comfortable Panel Placement",
+            "Easy-to-Execute Gestures",
+            "Accessible Inputs",
+            "Clear Feedback in Interactions"
+          ],
+          "diagram": "05.svg",
+          "photo": null,
+          "video": null
+        },
+        {
+          "title": null,
+          "subtitle": null,
+          "paragraphs": [
+            "The implementation of usability principles in the project is thoughtfully executed:"
+          ],
+          "lists": [
+            "Optimal UI Placement: The user interface elements are strategically positioned within the range of 0.5 to 3.5 meters, ensuring easy visibility and interaction.",
+            "Comfortable Menu Angle: The main menu is tilted 15 degrees to match the user's comfortable vision angle, enhancing the overall comfort and usability of the interface.",
+            "Customizable Teleport Options: Teleportation options are provided in the settings, allowing users to tailor their preferences for navigation and locomotion.",
+            "Stationary Game Navigation: Users have the flexibility to navigate the game as a stationary experience by using the vendor/map feature in the menu, enabling seamless transportation between locations."
+          ],
+          "diagram": null,
+          "photo": "06.jpg",
+          "video": null
+        },
+        {
+          "title": null,
+          "subtitle": "Pleasure",
+          "paragraphs": [
+            "The fourth stage, pleasure, is a captivating realm of sensory delight within the virtual environment. It enchants users with captivating visuals, immersive audio, and a harmonious blend of stimuli. By invoking positive emotions and fostering engagement, this stage amplifies the joy of exploration, making the virtual experience truly enchanting.",
+            "In VR, aesthetics are paramount, and they follow the principles of general graphic design with an additional focus on preventing cognitive load and eye strain. The following strategies are employed to achieve this:"
+          ],
+          "lists": [
+            "Using Multiple Small Panels and Avoiding One Huge Panel",
+            "Using Natural Colors and Avoiding White or Bright Colors",
+            "Device-Appropriate Typeface Sizes",
+            "Simplifying Communication by Semiotic Model"
+          ],
+          "diagram": null,
+          "photo": null,
+          "video": null
+        },
+        {
+          "title": null,
+          "subtitle": null,
+          "paragraphs": [
+            "In execution, these principles are thoughtfully integrated into the design:"
+          ],
+          "lists": [
+            "Separation of Main Menu and Player's Stats: The main menu and player's stats are separated to provide a clear and uncluttered interface, enhancing user engagement and focus.",
+            "Icons and Images Over Text: Visual clutter is avoided by using icons and images instead of text, streamlining the user experience and facilitating quick comprehension.",
+            "Appropriate Font Size: Fonts are set at least 20 mm per meter away, ensuring readability without causing eye strain during prolonged VR use.",
+            "Neon-Themed Design: A neon color theme and dark background are employed to create a vivid night atmosphere, immersing users in an enthralling visual experience."
+          ],
+          "diagram": null,
+          "photo": "07.jpg",
+          "video": null
+        },
+        {
+          "title": null,
+          "subtitle": "Individuation",
+          "paragraphs": [
+            "Finally, at the pinnacle of the Hedonic Pyramid, lies individuation, where personalized experiences take center stage. Tailoring the virtual journey to cater to each user's unique preferences, interests, and desires, this stage ensures that no two experiences are alike, forging a deep and lasting connection between the user and the virtual realm.",
+            "By providing users with the opportunity to link their meta avatar to the game, the Hedonic Yeshi project embraces individuality, fostering a truly immersive and meaningful experience for each user."
+          ],
+          "lists": null,
+          "diagram": null,
+          "photo": null,
+          "video": null
+        },
+        {
+          "title": "User Flow",
+          "subtitle": null,
+          "paragraphs": null,
+          "lists": null,
+          "diagram": "08.svg",
+          "photo": null,
+          "video": null
+        },
+        {
+          "title": "Credits",
+          "subtitle": null,
+          "paragraphs": null,
+          "lists": [
+            "Meta Reality Labs",
+            "Michelle Cortese",
+            "Hancock, Peter & Pepe, Aaron & Murphy, Lauren. (2005). Hedonomics: The Power of Positive and Pleasurable Ergonomics. Ergonomics in Design: The Quarterly of Human Factors Applications. 13. 8-14. 10.1177/106480460501300104. "
+          ],
+          "diagram": null,
+          "photo": null,
+          "video": null
+        }
+      ],
+      "heroImage": "01.png",
+      "supportVideoURL": "https://player.vimeo.com/video/838071093?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479",
+      "supportImages": ["02.svg"],
+      "gallery": ["03.jpg", "04.jpg", "06.jpg", "07.jpg"],
+      "videoURL": null
+    },
+    {
       "name": "handheld_fireplace",
       "thumbnail": "01.jpg",
       "title": "Handheld Fireplace",
@@ -319,40 +548,6 @@
       "supportImages": null,
       "gallery": ["01.jpg", "02.jpg", "03.jpg", "04.jpg", "05.jpg", "06.jpg"],
       "videoURL": "https://player.vimeo.com/video/829584697?h=7b5baece7a&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
-    },
-    {
-      "name": "invisible_worlds",
-      "thumbnail": "01.png",
-      "title": "Invisible Worlds",
-      "subtitle": "The Waiting Area of the Invisible Worlds Exhibition at AMNH",
-      "types": ["Professional", "Creative Technologist Intern"],
-      "team": null,
-      "company": "American Museum of Natural History",
-      "time": "Spring 2023",
-      "location": "New York, U.S.",
-      "venue": "The Gilder Center AMNH",
-      "tags": ["Exhibition", "Projection"],
-      "description": [
-        "The Invisible Worlds project takes place within the esteemed American Museum of Natural History, located in bustling New York City. This visionary endeavor provides a platform for visitors to embark on an immersive journey. Before experiencing this extraordinary adventure, guests are invited to explore the profound themes that connect life on Earth across vast distances, diverse species, and billions of years.",
-        "In this captivating space, my role centers around crafting mesmerizing particle systems. These creations enhance the immersive projections and interactive kiosks, captivating and engaging visitors in thought-provoking experiences. I also contribute to the interactive medium through projection mapping implementation."
-      ],
-      "readMore": [
-        {
-          "title": null,
-          "subtitle": "Credits",
-          "paragraphs": null,
-          "lists": [
-            "American Museum of Natural History",
-            "AMNH Interactive Media Team",
-            "Hayeon Hwang"
-          ]
-        }
-      ],
-      "heroImage": "01.png",
-      "supportVideoURL": null,
-      "supportImages": null,
-      "gallery": ["02.png", "03.png", "04.png", "05.png"],
-      "videoURL": null
     },
     {
       "name": "salt_deconstructing_stool",
@@ -445,13 +640,80 @@
       "venue": null,
       "tags": ["UX/UI"],
       "description": [
-        "This project involves the redesign of the official website for Famwood, a company that transitioned from being a furniture company to specializing in tiny house construction. Additionally, they operate a restaurant named OnOnNature. Prior to this redesign, Famwood had separate websites for each of its business ventures. The primary objective of this redesign is to consolidate these websites into a unified platform, streamlining the user experience and bringing together all aspects of the company under one digital presence. "
+        "This undertaking involves a thorough renovation of Famwood's official website. The company has undergone a transformation, shifting from its initial focus on furniture sales to emerging as a specialized authority in the construction of tiny houses, alongside its management of the OnOnNature restaurant. The rationale behind this website redesign stems from the imperative to consolidate the digital representation of Famwood's diverse business segments, which were formerly distributed across distinct websites. This initiative is directed towards cultivating a coherent and seamless user experience, thereby encompassing Famwood's entire spectrum of activities within a unified online framework."
       ],
-      "readMore": null,
+      "readMore": [
+        {
+          "title": "Challenge",
+          "subtitle": null,
+          "paragraphs": [
+            "Prior to this redesign, Famwood grappled with maintaining two distinct websites, one dedicated to retail, and the other highlighting their restaurant. Furthermore, this transition period coincided with the phase-out of their furniture business – a challenge compounded by the company's existing reputation in that sector. The confusion among customers regarding the company's core identity and current focus was evident.",
+            "Delving into discussions with the business proprietor, the primary focal point emerges: the promotion and sale of tiny house products - Mobile Home, a new direction for Famwood. The restaurant, OnOnNature, is designed to be an initial touchpoint for the reservation process of guided tours for their tiny houses."
+          ],
+          "lists": null,
+          "diagram": null,
+          "photo": null,
+          "video": null
+        },
+        {
+          "title": "Objective",
+          "subtitle": null,
+          "paragraphs": [
+            "At the forefront of this redesign stands the compelling objective of augmenting the volume of reservations for guided tours of the tiny houses. An ancillary aspiration involves establishing absolute clarity concerning the interrelationships between Famwood's divergent businesses, ultimately crystallizing the company's inherent value proposition."
+          ],
+          "lists": null,
+          "diagram": null,
+          "photo": null,
+          "video": null
+        },
+        {
+          "title": "Branding",
+          "subtitle": null,
+          "paragraphs": [
+            "The redesign involved crafting brand guidelines, a vital task given Famwood's 40-year legacy. This history bolsters the tiny house product's value, symbolizing steadfastness akin to a foundation.",
+            "Typographically, Serif fonts lend a classic touch to titles, while Sans fonts accommodate content due to intricate Chinese characters, ensuring readability.",
+            "Regarding colors, Famwood's historic link is pivotal. Since 1984, red, linked to Famwood's Chinese Name meaning 'red house', has been emblematic. A deep Crimson shade was chosen, along with grayscale tones, enhancing the classic essence and design coherence."
+          ],
+          "lists": null,
+          "diagram": "02.svg",
+          "photo": null,
+          "video": null
+        },
+        {
+          "title": "User Flow",
+          "subtitle": null,
+          "paragraphs": [
+            "The website's architecture comprises three distinct layers. Beginning with the first layer, the home page, which serves as the initial landing point for visitors. This section prominently features two key links, directing users to explore the “Mobile Home” and “OnOnNature” sections, constituting the second layer of the architecture.",
+            "Within these subsections, the third layer is introduced through additional links. For instance, within the \"Mobile Home\" page, visitors are provided with avenues to access more detailed specifications or proceed to the tour reservation page, facilitated by a strategically placed 'call to action' button. Furthermore, a dedicated call to action button is consistently positioned in the bottom left corner of the page, ensuring easy access to the reservation page."
+          ],
+          "lists": null,
+          "diagram": "03.svg",
+          "photo": null,
+          "video": null
+        },
+        {
+          "title": null,
+          "subtitle": null,
+          "paragraphs": null,
+          "lists": null,
+          "diagram": "04.jpg",
+          "photo": null,
+          "video": null
+        },
+        {
+          "title": null,
+          "subtitle": null,
+          "paragraphs": null,
+          "lists": null,
+          "diagram": "05.jpg",
+          "photo": null,
+          "video": null
+        }
+      ],
       "heroImage": "01.png",
       "supportVideoURL": null,
-      "supportImages": ["02.png"],
-      "gallery": ["03.png", "04.png", "05.png", "06.png"],
+      "supportImages": ["03.svg", "02.svg"],
+      "gallery": ["06.jpg", "07.png", "08.png", "09.png", "10.png"],
       "videoURL": null
     },
     {

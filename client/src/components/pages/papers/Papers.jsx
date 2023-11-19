@@ -7,7 +7,8 @@ function Papers() {
   const [allPapers, setAllPapers] = useState([]);
 
   const fetchPapers = async () => {
-    fetch("http://localhost:5000/api/papers")
+    // fetch("http://localhost:5000/api/papers")
+    fetch("/api/papers")
       .then((res) => res.json())
       .then((resData) => {
         setAllPapers(resData.data.papers);

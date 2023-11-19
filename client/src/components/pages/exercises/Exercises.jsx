@@ -9,7 +9,8 @@ function Exercises() {
   const [allExercises, setAllExercises] = useState([]);
 
   const fetchExercises = async () => {
-    fetch("http://localhost:5000/api/exercises")
+    // fetch("http://localhost:5000/api/exercises")
+    fetch("/api/exercises")
       .then((res) => res.json())
       .then((resData) => {
         const sortByDate = (a, b) => b.date - a.date;
