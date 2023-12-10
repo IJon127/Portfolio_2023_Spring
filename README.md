@@ -18,7 +18,8 @@ This portfolio project showcases a minimalism-style portfolio built with React.
 
 ## Demo
 
-coming soon
+![projects page](/docs/demo_projects_page.jpg)
+![exercises page](/docs/demo_exercises_page.jpg)
 
 ## License
 
